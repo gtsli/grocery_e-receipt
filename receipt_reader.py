@@ -1,4 +1,6 @@
 import re
+from decimal import Decimal
+
 from fuzzywuzzy import fuzz
 from flask import Flask, request, jsonify
 app = Flask(__name__)
@@ -26,20 +28,53 @@ def get_total(receipt):
 
 
 def get_items(receipt):
-    # get all the lines with items
-    line_items = re.findall(r'<pre style=\"text-align:center\">(?:[A-Z]|\d|&nbsp;|\s|\.|t|%)*<u></u><u></u></pre>',
-                            receipt)
+    # find start of line items
+    lines = receipt.splitlines()
+    curr = 0
+    while not lines[curr].startswith("<pre style=\"text-align:center\">"):
+        curr += 1
+        # error if no items found
+        if curr == len(lines):
+            return None
+
+    # parse out items and price
     items = []
-    # get the items for each line
-    for line_item in line_items:
-        print(line_item)
-        item = re.findall(r'(?:[A-Z]|\d)(?:[A-Z]|\s|\d|\.|%)+', line_item)
-        # items with price
+    while "Order Total" not in lines[curr]:
+        item = re.findall(r'(?:[A-Z]|\d)(?:[A-Z]|\s|\d|\.|%)+', lines[curr])
+        # lines without price
         if len(item) == 1:
+            curr += 1
+            # get price from next line
+            next_line = re.findall(r'(?:\d?\d?\d\.\d\d)', lines[curr])
+            item.append(next_line[-1])
             items.append(item)
-        # items without price
+            if "You Saved" in lines[curr + 1]:
+                curr += 1
+        # lines with promotion
+        elif len(item) == 2:
+            # subtract promotion from previous line
+            promotion = Decimal(item[0])
+            items[-1][1] = str(Decimal(items[-1][1]) - promotion)
+        # items with price
         elif len(item) == 3:
             items.append(item[:2])
+        curr += 1
+
+
+    # # get all the lines with items
+    # line_items = re.findall(r'<pre style=\"text-align:center\">(?:[A-Z]|\d|&nbsp;|\s|\.|t|%)*<u></u><u></u></pre>',
+    #                         receipt)
+    # items = []
+    # # get the items for each line
+    # for line_item in line_items:
+    #     print(line_item)
+    #     item = re.findall(r'(?:[A-Z]|\d)(?:[A-Z]|\s|\d|\.|%)+', line_item)
+    #     # items with price
+    #     if len(item) == 1:
+    #         items.append(item)
+    #     # items without price
+    #     elif len(item) == 3:
+    #         items.append(item[:2])
     return translate_items(items)
 
 
@@ -61,4 +96,4 @@ def find_closest_string(string):
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, use_reloader=False)

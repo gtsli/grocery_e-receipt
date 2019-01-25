@@ -16,7 +16,21 @@ def get_receipt_info():
 
 
 def get_store(receipt):
-    return""
+    # find start of address line
+    lines = receipt.splitlines()
+    curr = 0
+    while "<p class=\"MsoNormal\" align=\"center\" style=\"text-align:center\">" \
+          "<span style=\"font-size:10.0pt;font-family:Courier\"><" not in lines[curr]:
+        curr += 1
+        # error if no address found
+        if curr == len(lines):
+            return None
+
+    address = re.findall(r'>(?:[A-Za-z]|\d|\s|\.)+</a>', lines[curr])[0]
+    address = address[1:-4]
+    curr += 1
+    address += " " + re.findall(r'(.*?)<u>', lines[curr])[0]
+    return address
 
 
 def get_date(receipt):

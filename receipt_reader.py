@@ -40,41 +40,23 @@ def get_items(receipt):
     # parse out items and price
     items = []
     while "Order Total" not in lines[curr]:
-        item = re.findall(r'(?:[A-Z]|\d)(?:[A-Z]|\s|\d|\.|%)+', lines[curr])
-        # lines without price
-        if len(item) == 1:
-            curr += 1
-            # get price from next line
-            next_line = re.findall(r'(?:\d?\d?\d\.\d\d)', lines[curr])
-            item.append(next_line[-1])
-            items.append(item)
-            if "You Saved" in lines[curr + 1]:
-                curr += 1
-        # lines with promotion
-        elif len(item) == 2:
+        if "Promotion" in lines[curr]:
             # subtract promotion from previous line
-            promotion = Decimal(item[0])
+            print(re.findall(r'(?:\d?\d?\d\.\d\d)', lines[curr])[0])
+            promotion = Decimal(re.findall(r'(?:\d?\d?\d\.\d\d)', lines[curr])[0])
             items[-1][1] = str(Decimal(items[-1][1]) - promotion)
-        # items with price
-        elif len(item) == 3:
-            items.append(item[:2])
+        elif "You Saved" not in lines[curr]:
+            item = re.findall(r'(?:[A-Z]|\d)(?:[A-Z]|\s|\d|\.|%)+', lines[curr])
+            if len(item) == 1:
+                curr += 1
+                # get price from next line
+                next_line = re.findall(r'(?:\d?\d?\d\.\d\d)', lines[curr])
+                item.append(next_line[-1])
+                items.append(item)
+            else:
+                items.append(item[:2])
         curr += 1
 
-
-    # # get all the lines with items
-    # line_items = re.findall(r'<pre style=\"text-align:center\">(?:[A-Z]|\d|&nbsp;|\s|\.|t|%)*<u></u><u></u></pre>',
-    #                         receipt)
-    # items = []
-    # # get the items for each line
-    # for line_item in line_items:
-    #     print(line_item)
-    #     item = re.findall(r'(?:[A-Z]|\d)(?:[A-Z]|\s|\d|\.|%)+', line_item)
-    #     # items with price
-    #     if len(item) == 1:
-    #         items.append(item)
-    #     # items without price
-    #     elif len(item) == 3:
-    #         items.append(item[:2])
     return translate_items(items)
 
 

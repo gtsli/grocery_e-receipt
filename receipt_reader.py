@@ -1,7 +1,7 @@
 import re
 from decimal import Decimal
 
-from fuzzywuzzy import fuzz
+# from fuzzywuzzy import fuzz
 from flask import Flask, request, jsonify
 app = Flask(__name__)
 
@@ -12,7 +12,7 @@ def get_receipt_info():
     date = get_date(receipt)
     items = get_items(receipt)
     total = get_total(receipt)
-    return jsonify(date=date, items=items, store=store, total=total)
+    return jsonify(date=date, items=items, store=store, total=total, unknowns=[])
 
 
 def get_store(receipt):
@@ -79,16 +79,16 @@ def translate_items(items):
     return items
 
 
-def find_closest_string(string):
-    products = open("resources/Products")
-    closest_ratio = None
-    closest_string = None
-    for line in products.readlines():
-        distance = fuzz.ratio(string, line.lower())
-        if closest_ratio is None or distance > closest_ratio:
-            closest_ratio = distance
-            closest_string = line.lower()
-    return closest_string
+# def find_closest_string(string):
+#     products = open("resources/Products")
+#     closest_ratio = None
+#     closest_string = None
+#     for line in products.readlines():
+#         distance = fuzz.ratio(string, line.lower())
+#         if closest_ratio is None or distance > closest_ratio:
+#             closest_ratio = distance
+#             closest_string = line.lower()
+#     return closest_string
 
 
 if __name__ == "__main__":

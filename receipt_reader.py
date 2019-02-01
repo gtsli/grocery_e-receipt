@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/get-receipt-info", methods=["GET"])
 def get_receipt_info():
-    receipt = request.get_data()
+    receipt = request.data
     store = get_store(receipt)
     date = get_date(receipt)
     items = get_items(receipt)

@@ -7,12 +7,13 @@ app = Flask(__name__)
 
 @app.route("/get-receipt-info", methods=["GET"])
 def get_receipt_info():
-    receipt = request.data
-    store = get_store(receipt)
-    date = get_date(receipt)
-    items = get_items(receipt)
-    total = get_total(receipt)
-    return jsonify(date=date, items=items, store=store, total=total, unknowns=[])
+	receipt = request.data.decode('utf-8')
+	print (type(receipt))
+	store = get_store(receipt)
+	date = get_date(receipt)
+	items = get_items(receipt)
+	total = get_total(receipt)
+	return jsonify(date=date, items=items, store=store, total=total, unknowns=[])
 
 
 def get_store(receipt):

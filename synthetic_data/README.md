@@ -1,0 +1,1 @@
+synthetic_data folder README file. Content is a high level about navigation, pipeline process, how to run different notebooks, set up information

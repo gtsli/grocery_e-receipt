@@ -82,11 +82,13 @@ def get_items(receipt):
 def translate_items(items):
     translated = []
     for item in items:
+        # translated.append(find_closest_string(item[0]))
         translated.append(find_closest_string_weighted(item[0]))
     return translated
 
 
 def find_closest_string(string):
+    print("string: " + string)
     products = open("resources/Products")
     closest_ratio = None
     closest_string = None
@@ -95,49 +97,30 @@ def find_closest_string(string):
         if closest_ratio is None or distance > closest_ratio:
             closest_ratio = distance
             closest_string = line.lower()
+    print("closest_string: " + closest_string)
     return closest_string
 
 
 def find_closest_string_weighted(string):
     print("string: " + string)
+
     insert_costs = np.full(128, .3, dtype=np.float64)  # make an array of all 1's of size 128, the number of ASCII characters
     transpose_costs = np.full((128, 128), .7, dtype=np.float64)
     delete_costs = np.full(128, 1.2, dtype=np.float64)
-    # delete_costs = np.ones(128, dtype=np.float64)
-    # print(transpose_costs)
-    # print(delete_costs)
+
     products = open("resources/Products")
-    # products = open("resources/cleaned_data_branded.csv")
     closest_distance = 999999
     closest_string = None
-    # print(dam_lev('BANANA', 'BANANAAAAA', insert_costs=insert_costs, transpose_costs=transpose_costs, delete_costs=delete_costs))
-    # debug = True
+
     for line in products.readlines():
-        # cost to go from string to product name
-        # distance = lev(string, line.lower(), insert_costs=insert_costs, delete_costs=delete_costs)
-        # print("product: " + str(line.upper()))
-        # if debug == True:
-        #     print(line.upper().strip())
-            # print(len(line.upper().strip()))
-            # print(len("MOCHI ICE CREAM BONBONS"))
-            # debug = False
-        # if line.lower() == "bananas":
-        #     print("@@@@@@@LKAJSDKASLKJDLAJSLD:AJ")
         distance = osa(string.lower(), line.lower(), insert_costs=insert_costs, transpose_costs=transpose_costs, delete_costs=delete_costs)
-        # if line.lower().strip() == "bananas":
-        #     print("distance: " + str(distance)) 
-        # distance = dam_lev(string, line.lower(), insert_costs=insert_costs, transpose_costs=transpose_costs, delete_costs=delete_costs)
-        # distance = fuzz.ratio(string, line.lower())
+
         if closest_distance is None or distance < closest_distance:
             closest_distance = distance
             closest_string = line.lower()
     print("closest_string: " + closest_string)
-    # print("closest_distance: " + str(closest_distance))
     return closest_string
 
 
 if __name__ == "__main__":
-    # find_closest_string_weighted("strawberry yogurt!!!")
-    # find_closest_string_weighted("strwbry ygrt")
-    # find_closest_string_weighted("BANANAS")
     app.run(debug=True, use_reloader=False)

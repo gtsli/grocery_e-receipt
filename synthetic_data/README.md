@@ -2,7 +2,7 @@ Synthetic Data
 
 This folder contains all of the information regarding the cleaning and generation of data.
 
-The data folder holds all data files, inlcuding:
+The data folder holds all data files, including:
 	- the data downloaded from USDA website (products.csv)
 	- the manually collected receipt information (receipt_data_manual.csv)
 	- cleaned data (any file starting with "cleaned_")

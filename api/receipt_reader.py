@@ -1,5 +1,6 @@
 import re
 import numpy as np
+import json
 
 from decimal import Decimal
 
@@ -103,18 +104,39 @@ def find_closest_string(string):
 
 def find_closest_string_weighted(string):
     print("string: " + string)
+    
+    with open('../approaches/edit_distance/cleaned_bucket_data.json', encoding="ASCII") as f:
+        data = json.load(f)        
+
+    # find first letter of every word in the string
+    words = string.split()
+    letters = [word[0] for word in words]
+
+    # get corresponding buckets 
+    first_letter = string[0]
+    products = []
+    for bucket in data:
+        if bucket[0][0] == first_letter:
+            products += bucket
+
+    # remove non-ascii characters
+    cleaned_products = []
+    for entry in products:
+        cleaned_entry = ""
+        for character in entry:
+            if ord(character) <= 128:
+                cleaned_entry += character
+        cleaned_products.append(cleaned_entry)
 
     insert_costs = np.full(128, .3, dtype=np.float64)  # make an array of all 1's of size 128, the number of ASCII characters
     transpose_costs = np.full((128, 128), .7, dtype=np.float64)
     delete_costs = np.full(128, 1.2, dtype=np.float64)
 
-    products = open("resources/Products")
     closest_distance = 999999
     closest_string = None
 
-    for line in products.readlines():
+    for line in cleaned_products:
         distance = osa(string.lower(), line.lower(), insert_costs=insert_costs, transpose_costs=transpose_costs, delete_costs=delete_costs)
-
         if closest_distance is None or distance < closest_distance:
             closest_distance = distance
             closest_string = line.lower()

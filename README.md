@@ -7,7 +7,7 @@ The Personal Virtual Inventory Project will help millions of diabetic and predia
 ## Pipeline
 
 The following displays the general pipeline of the project. For more information about this project and the pipeline process, review the accompanying documentation. 
-<img src="imgs/Pipeline_Static.jpg" width="600" height="600">
+<img src="imgs/Pipeline_Static.jpg" width="1000" height="600">
 
 # Getting Started
 

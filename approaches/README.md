@@ -22,6 +22,29 @@ Please note, this notebook is only for retraining a model. It will take a while 
 ```
 /approaches/LSTM/models/
 ```
+# Edit Distance
+
+Edit Distance, or Levenshtein Distance, measures the similarity between two strings by counting the number of operations needed to transform one string into the other. In our case, we are going from the abbreviated receipt title to the full product title. We implemented Weighted Edit Distance, a variation on Edit Distance, that weights Add operations more lightly than Remove and Substitute operations, which leads to better results since we expect the full product title to be longer than the abbreviated title. Additionally, we implemented Alphabetized Optimization, in which we only perform Edit Distance calculations with products in buckets corresponding with the first letter of each word in the abbreviated title, in order to speed up calculations without sacrificing accuracy.  
+
+## Dependencies
+
+```
+$ pip3 install fuzzywuzzy
+$ pip3 install weighted_levenshtein
+$ pip3 install flask
+```
+Install postman https://www.getpostman.com/
+
+## Running
+
+Navigate to api directory. Type:
+```
+$ python3 receipt_reader.py
+```
+Open Postman.
+Make a GET request for 127.00.1:5000/get-receipt-info.
+Navigate to the Body tab and paste the body of api/test_files/publix_receipt.html here.
+Click Send and wait for the results to appear!
 
 # Gradient Boosted Decision Trees
 

@@ -13,6 +13,8 @@ The following displays the general pipeline of the project. For more information
 
 This project requires [python 2.7](https://www.python.org/downloads/release/python-2713/). Please install [python 2.7](https://www.python.org/downloads/release/python-2713/) for the designated operating system you are using. If asked about putting python in your PATH, say yes. 
 
+This project also requires installing [postman](https://www.getpostman.com/downloads/). Please install postman [here](https://www.getpostman.com/downloads/).
+
 Next, open a terminal or command prompt. Navigate to the root directory of the project. To install all the libraries and dependencies required for the project, follow the command:
 ```
 $ sudo pip install --upgrade pip

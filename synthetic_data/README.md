@@ -45,4 +45,4 @@ Relevant files:
   * remove_vowels - removes all vowels
 * `manual_data_cleaning.ipynb` - cleans all of the manually collected data and corresponding products.csv matches in the same way as EDA_Cleaning.ipynb **This script outputs:** `/synthetic_data/data/cleaned_receipt_data_manual.csv`, `/synthetic_data/data/no_matches_manual_data.csv`
 
-To run this script, simply run through all the cells.
+To run a script, simply run through all the cells.

@@ -17,7 +17,7 @@ Navigate to:
 /approaches/LSTM/
 ```
 Run LSTM.ipynb for the current LSTM implementation. 
-<img src="../imgs/run_all.jpg" width="400" height="200">
+<img src="../imgs/run_all.png" width="400" height="200">
 
 
 Please note, this notebook is only for retraining a model. It will take a while to run until completion. All trained models are stored in 

@@ -2,7 +2,7 @@
 
 This folder contains all of the information regarding the cleaning and generation of data. To date, this project lacks a real world training dataset and thus for the completion of this project we had to rely on synthetically generating our own data based on common rules we saw across multiple receipt items from different stores. **NOTE:** once legitimate real world data is obtained, the synthetic data and its entire pipeline should be REPLACED.
 
-# How The Synthetic Data Generation Pipeline Works
+# How the Synthetic Data Generation and the Manual Data Pipelines Work
 
 ## /synthetic_data/data/
 
@@ -12,6 +12,8 @@ The `/synthetic_data/data/` folder holds all data files, including:
 * `cleaned_*.csv` - data that has run through the cleaning pipeline and has been cleaned
   * `cleaned_branded_data.json` - cleaned data containing brands (to test approaches dealing with brands)
   * `cleaned_data.json` - cleaned data WITHOUT brands (to test approaches dealing with NO brands)
+  * `cleaned_receipt_data_manual.csv` - cleaned manual data that goes through the same cleaning process found in `EDA_Cleaning.ipynb`
+* `no_matches_manual_data.csv` - a list of all manually collected data with no corresponding match in `products.csv`
 * `final_train_labels.json` - json file containing training data and training labels after having run through the synthetic data generation pipeline (~ 500k lines of data)
 * `final_branded_train_labels.json` - json file containing branded training data and training labels after having run through the synthetic data generation pipeline
 * `abbreviated_brands.json` - json file containing all brands and their corresponding representation in receipt format (EX: "VILLAGE HEARTH" --> "VLLG HRTH")
@@ -20,12 +22,16 @@ The `/synthetic_data/data/` folder holds all data files, including:
 * `descriptors.json` - json file containing a list of all the descriptors we have identified in `products.csv` like: "100% natural", "premium", "organic", etc
 
 
+To start the manual data cleaning pipeline, only `receipt_data_manual.csv` is required. All of the other manual data files, listed below, are generated off of `receipt_data_manual.csv`.
+* `cleaned_receipt_data_manual.csv` 
+* `no_matches_manual_data.csv`
 
-To start the pipeline, only `products.csv` is required. All of the other files are generated off of `products.csv`. To run this script, simply run through all the cells.
+To start the synthetic data generation pipeline, only `products.csv` is required. All of the other files are generated off of `products.csv`.
+
 
 ## /synthetic_data/scripts/
 
-This folder contains all of the scripts necessary clean out the data from `products.csv` and generate our training data and training labels from our self-deduced receipt mapping rules.
+This folder contains all of the scripts necessary clean out the data from `products.csv` and generate our training data and training labels from our self-deduced receipt mapping rules. It also includes a script that cleans the manual data.
 
 Relevant files:
 * `EDA_Cleaning.ipynb` - .ipynb script containing code to explore the dataset and clean out `products.csv` by removing details such as descriptors, brands, units, bad products, symbols, bad characters (commas, etc). **This script outputs:** `/synthetic_data/data/descriptors.json`, `/synthetic_data/data/cleaned_branded_data.json`, `/synthetic_data/data/cleaned_data.json` 
@@ -37,5 +43,6 @@ Relevant files:
   * brand_first_letters - takes first letter of each word in the brand (if present)
   * first_letters - takes first letter of each word
   * remove_vowels - removes all vowels
+* `manual_data_cleaning.ipynb` - cleans all of the manually collected data and corresponding products.csv matches in the same way as EDA_Cleaning.ipynb **This script outputs:** `/synthetic_data/data/cleaned_receipt_data_manual.csv`, `/synthetic_data/data/no_matches_manual_data.csv`
 
 To run this script, simply run through all the cells.

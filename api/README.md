@@ -20,6 +20,6 @@ $ python receipt-reader.py
 
 Using Postman, make a GET request to the endpoint /get-receipt-info with the text from the Publix e-receipt HTML in the body of Postman as plain text.
 Ex.: 127.00.1:5000/get-receipt-info
-<img src="imgs/postman.png" width="1000" height="600">
+<img src="../imgs/postman.png" width="1181" height="609">
 
 The Publix e-receipt is located in the /test_files folder

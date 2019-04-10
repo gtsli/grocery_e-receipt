@@ -46,3 +46,23 @@ Relevant files:
 * `manual_data_cleaning.ipynb` - cleans all of the manually collected data and corresponding products.csv matches in the same way as EDA_Cleaning.ipynb **This script outputs:** `/synthetic_data/data/cleaned_receipt_data_manual.csv`, `/synthetic_data/data/no_matches_manual_data.csv`
 
 To run a script, simply run through all the cells.
+
+## How to clean manually collected data:
+* If necessary, update products.csv from the USDA website (only updated once or twice a year)
+  * Go to https://ndb.nal.usda.gov/ndb/search/list?maxsteps=6&format=&count=&max=25&sort=fd_s&fgcd=&manu=&lfacet=&qlookup=&ds=&qt=&qp=&qa=&qn=&q=&ing=&offset=550&order=asc
+  * Click downloads
+  * Select BFPD ASCII Files
+  * Rename “products.csv” and place in the data folder in synthetic_data
+* Collect data in a csv file called “receipt_data_manual.csv” (save in the data folder) with the following columns
+  * receipt_name (the actual abbreviated name found on the receipt)
+  * full_product_title (what the full product title of the item is that uniquely defines it, like “Granny Smith Apples”)
+  * general_product_title (the off hand name people use to refer to this product, like “apples”)
+  * store (the store where the item was bought)
+  * product_database (what you think the best match in products.csv is for this item)
+* Run “manual_data_cleaning.ipynb” found in the scripts folder in synthetic_data. This will generate two files:
+  * “cleaned_receipt_data_manual.csv”: a cleaned version of receipt data manual csv
+    * All entries have leading and trailing spaces removed
+    * Capitalization is standardized
+    * The products.csv matches in the column “products_database” are cleaned in the same way that products.csv is cleaned in “EDA_Cleaning.ipynb”
+    * The results are found in new columns called “no_brand_descriptor_title” and “no_descriptor_title”
+  * “no_matches_manual_data.csv”: a list of all the receipt items for which you did not find a suitable match in products.csv. These represent the limitations of the USDA database

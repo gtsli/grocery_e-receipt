@@ -80,6 +80,9 @@ target/
 ./synthetic_data/data/SR_Legacy_products
 ./synthetic_data/data/cleaned_branded.json
 
+# don't save any trained LSTM models, too large to push to github
+/approaches/LSTM/models/*
+
 # Jupyter Notebook
 MANIFEST
 build

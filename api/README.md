@@ -1,4 +1,4 @@
-API
+# API
 
 This folder contains all the files necessary to set up a local server using Flask and test our logic.
 
@@ -8,11 +8,18 @@ The test_files folder contains test HTML files to test our logic on. So far, the
 
 The receipt_reader python file contains all of our logic thus far to set up the Flask server, parse, and translate e-receipts.
 
-To set up the server and test:
-1) You will probably want Postman to make a GET HTTP request to the server
-    - Install at https://www.getpostman.com
-2) $Pip install Flask
-3) $Python receipt-reader.py
-4) Using Postman, make a GET request to the endpoint /get-receipt-info with the text from the Publix e-receipt HTML in the body of Postman as plain text.
-    - Ex.: 127.00.1:5000/get-receipt-info
-    - The Publix e-receipt is located in the /test_files folder
+## To Set Up the Server and Test:
+
+Make sure you have Postman installed to make a GET HTTP request to the server.
+Install at https://www.getpostman.com
+
+To run the the web service via Flask, run the following command:
+```
+$ python receipt-reader.py
+```
+
+Using Postman, make a GET request to the endpoint /get-receipt-info with the text from the Publix e-receipt HTML in the body of Postman as plain text.
+Ex.: 127.00.1:5000/get-receipt-info
+<img src="../imgs/postman.png" width="1181" height="609">
+
+The Publix e-receipt is located in the /test_files folder

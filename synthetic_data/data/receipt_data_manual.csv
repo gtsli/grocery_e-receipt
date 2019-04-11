@@ -1,449 +1,445 @@
-receipt_name,full_product_title,general_product_title,store,database,no_brand_descriptor_title,no_descriptor_title
-ORGANIC GALA APPLE,organic gala apples,apples,publix,Organic gala apples,Organic gala apples,Organic gala apples
-ACT STRWBY/BLUEBRY,activia probiotic yogurt,yogurt,publix,DANNON ACTIVIA FIBER PROBIOTIC LOWFAT YOGURT STRAWBERRY,DANNON ACTIVIA FIBER PROBIOTIC LOWFAT YOGURT STRAWBERRY,DANNON ACTIVIA FIBER PROBIOTIC LOWFAT YOGURT STRAWBERRY
-OREO THINS PISTACH,oreo thins pistachio,oreos,publix,OREO THINS COOKIES PISTACHIO 1X10.1 OZ,OREO THINS COOKIES PISTACHIO 1X10.1 OZ,OREO THINS COOKIES PISTACHIO 1X10.1 OZ
-OG GW BABY SPINACH,organic baby spinach,spinach,publix,ORGANIC BABY SPINACH,ORGANIC BABY SPINACH,ORGANIC BABY SPINACH
-PAPAYA MARADOL,papaya,papaya,publix,PAPAYA CHUNKS,PAPAYA CHUNKS,PAPAYA CHUNKS
-ORGANIC APPLES FUJ,organic fuji apples,apples,publix,ORGANIC FUJI APPLES,ORGANIC FUJI APPLES,ORGANIC FUJI APPLES
-SABRA RST GARL HUM,sabra garlic hummus,hummus,publix,SABRA CLASSIC HUMMUS,SABRA CLASSIC HUMMUS,SABRA CLASSIC HUMMUS
-CARROTS BABY CUT,baby cut carrots,carrots,publix,BABY CUT CARROTS,BABY CUT CARROTS,BABY CUT CARROTS
-MOCHI ICE CREAM,mochi ice cream,ice cream,publix,MOCHI ICE CREAM,MOCHI ICE CREAM,MOCHI ICE CREAM
-HTGF CHK BRST,heritage farm chicken breast,chicken breast,kroger,CHICKEN BREAST,CHICKEN BREAST,CHICKEN BREAST
-GREEN BEANS,green beans,green beans,kroger,GREEN BEANS,GREEN BEANS,GREEN BEANS
-KRO KALE,kroger kale,kale,kroger,KALE,KALE,KALE
-PEPPERS RAINBOW,rainbow peppers,peppers,kroger,RAINBOW BELL PEPPERS,RAINBOW BELL PEPPERS,RAINBOW BELL PEPPERS
-YAMS SWT JEWEL,sweet jewel yams,yams,kroger,CUT YAMS SWEET POTATOES,CUT YAMS SWEET POTATOES,CUT YAMS SWEET POTATOES
-HTGF POTATOES RSST,heritage farm russet potatoes,potatoes,kroger,RUSSET POTATOES,RUSSET POTATOES,RUSSET POTATOES
-KROGER BRC&CAU,kroger broccoli and cauliflower,broccoli and cauliflower,kroger,BROCCOLI AND CAULIFLOWER,BROCCOLI AND CAULIFLOWER,BROCCOLI AND CAULIFLOWER
-KROGER FROZEN VEG,kroger frozen vegetable,frozen vegetables,kroger,FRESH FROZEN VEGETABLES,FRESH FROZEN VEGETABLES,FRESH FROZEN VEGETABLES
-CLEMNTNES 3#,clementines 3 pounds,clementines,kroger,CLEMENTINE,CLEMENTINE,CLEMENTINE
-BANANAS,bananas,bananas,kroger,BANANA,BANANA,BANANA
-CHOBANI YOGURT,chobani yogurt,yogurt,kroger,GREEK YOGURT,GREEK YOGURT,GREEK YOGURT
-BC PCH PIE,bakery peach pie,pie,kroger,PEACH PIE,PEACH PIE,PEACH PIE
-BC COOKIES,bakery cookies,cookies,kroger,COOKIES,COOKIES,COOKIES
-STRKST TUNA CRTNS,starkist tuna creations,tuna,kroger,TUNA CREATIONS,TUNA CREATIONS,TUNA CREATIONS
-STARKIST TUNA,starkist tuna,tuna,kroger,TUNA,TUNA,TUNA
-KRO OLIVE OIL,kroger olive oil,olive oil,kroger,OLIVE OIL,OLIVE OIL,OLIVE OIL
-KROGER YEAST,kroger yeast,yeast,kroger,KROGER FAST RISE YEAST,KROGER FAST RISE YEAST,KROGER FAST RISE YEAST
-WHITE LILLY FLOUR,white lilly flour,flour,kroger,FLOUR,FLOUR,FLOUR
-KRO FLOUR,kroger flour,flour,kroger,FLOUR,FLOUR,FLOUR
-KRO SALSA,kroger salsa,salsa,kroger,SALSA,SALSA,SALSA
-CUPCAKE 6CT DEC,cupcake decorating kit,cupcake decorating kit,publix,CUPCAKE,CUPCAKE,CUPCAKE
-AQUAFINA WATER,aquafina water,water,publix,WATER,WATER,WATER
-GLAZED DONUT,glazed donut,glazed donut,publix,GLAZED DONUTS,GLAZED DONUTS,GLAZED DONUTS
-PUBLIX MILK WH 0.5,publix whole milk half gallon,whole milk half gallon,publix,WHOLE MILK,WHOLE MILK,WHOLE MILK
-PF XTRA CHEDDAR GF,pepperidge farms xtra cheddar goldfish,goldfish,publix,,,
-PF CHEESE GOLDFISH,pepperidge farms cheese goldfish,goldfish,publix,,,
-PROG CHICK BROTH,progresso chicken broth,chicken broth,publix,CHICKEN BROTH,CHICKEN BROTH,CHICKEN BROTH
-MULTIGRAIN CHEERIO,multigrain cheerios,cheerios,safeway,CHEERIOS CEREAL,CHEERIOS CEREAL,CHEERIOS CEREAL
-PROGRESSO R&H STK,progresso rich & heart steak & homestyle noodles,canned soup,safeway,SOUP,SOUP,SOUP
-LAVDR PEEPS,peeps lavender marshmallow chicks,marshmallows,walmart,MARSHMALLOWS,MARSHMALLOWS,MARSHMALLOWS
-PEZ DISPENSE,pez dispenser,pez candy,walmart,CANDY & DISPENSER,CANDY & DISPENSER,CANDY & DISPENSER
-JELLY BEANS,jelly beans,jelly beans,walmart,JELLY BEANS,JELLY BEANS,JELLY BEANS
-ROLD GOLD,rold gold pretzels,pretzels,walmart,PRETZEL,PRETZEL,PRETZEL
-GV CHIPS,great value chips,chips,walmart,CHIPS,CHIPS,CHIPS
-ROASTED ALMD,roasted almonds,almonds,walmart,ROASTED ALMONDS,ROASTED ALMONDS,ROASTED ALMONDS
-MT DEW CD RE,mountain dew code red,soda,walmart,Mountain Dew Code Red Soda 12 Fluid Ounce Aluminum Can,Mountain Dew Code Red Soda 12 Fluid Ounce Aluminum Can,Mountain Dew Code Red Soda 12 Fluid Ounce Aluminum Can
-ACTII BUTTER,act ii butter popcorn,popcorn,walmart,POPCORN,POPCORN,POPCORN
-CHEESE NIPS,cheese nips,cheese nips,walmart,CHEESE NIPS SNACKS CRACKER,CHEESE NIPS SNACKS CRACKER,CHEESE NIPS SNACKS CRACKER
-AW CREAM SDA,a&w cream soda,cream soda,walmart,CREAM SODA,CREAM SODA,CREAM SODA
-CNM ALMOND,cinnamon almonds,cinnamon almonds,walmart,CINNAMON ALMONDS,CINNAMON ALMONDS,CINNAMON ALMONDS
-RNCH CRACKER,ranch crackers,ranch crackers,walmart,CRACKERS,CRACKERS,CRACKERS
-ROOT BEER,root beer,root beer,walmart,ROOT BEER,ROOT BEER,ROOT BEER
-DR PEPPER,dr pepper,dr pepper,walmart,DR PEPPER,DR PEPPER,DR PEPPER
-DORITO 12 CT,doritos,doritos,walmart,CHIPS,CHIPS,CHIPS
-REESES PEAN,reeses peanut butter cups,peanut butter cups,walmart,,,
-GATORADE,gatorade,gatorade,walmart,THIRST QUENCHER POWDER,THIRST QUENCHER POWDER,THIRST QUENCHER POWDER
-GARDETTOS,gardetts original recipe snack mix,snack mix,walmart,SNACK MIX,SNACK MIX,SNACK MIX
-ASPARAGUS,asparagus,asparagus,walmart,ASPARAGUS,ASPARAGUS,ASPARAGUS
-PASTA,pasta,pasta,walmart,PASTA,PASTA,PASTA
-HONEY GLD POTATOES,potato inspirations honey gold potatoes,honey gold potatoes,publix,POTATOES,POTATOES,POTATOES
-DE CECCO BOW FARFA,de cecco farfalle,farfalle,publix,FARFALLE,FARFALLE,FARFALLE
-FRNDSHP SOUR CREAM,friendship sour cream,sour cream,publix,SOUR CREAM,SOUR CREAM,SOUR CREAM
-ATHENOS TR/CR FETA,athenos traditional crumbled feta,publix,feta crumbled,,,
-HUNTS KETCHUP,hunts tomato ketchup,tomato ketchup,publix,HUNTS Tomato Ketchup,HUNTS Tomato Ketchup,HUNTS Tomato Ketchup
-APPLES CRIPPS PINK,cripps pink apples,apples,publix,RAW CRIPPS PINK APPLE JUICE,RAW CRIPPS PINK APPLE JUICE,RAW CRIPPS PINK APPLE JUICE
-SABRA CLAS HUM 6PK,sabra classic hummus 6 pack,hummus,publix,SABRA CLASSIC HUMMUS,SABRA CLASSIC HUMMUS,SABRA CLASSIC HUMMUS
-EGG BREAD-CHALLAH,egg bread challah,challah,publix,PREMIUM EGG CHALLAH ROLLS,PREMIUM EGG CHALLAH ROLLS,PREMIUM EGG CHALLAH ROLLS
-KELL APPLE JACKS,kelloggs apple jacks,apple jacks,publix,KELLOGGS APPLE JACKS CEREAL WITH APPLE & CINNANON,KELLOGGS APPLE JACKS CEREAL WITH APPLE & CINNANON,KELLOGGS APPLE JACKS CEREAL WITH APPLE & CINNANON
-POST HONEY BUNCH,post honey bunches of oats,honey bunches of oats,publix,HONEY BUNCHES OF OATS CEREAL,HONEY BUNCHES OF OATS CEREAL,HONEY BUNCHES OF OATS CEREAL
-OLD FASHIONED OATS,old fashioned oats,oats,aldi,OLD FASHIONED OATS,OLD FASHIONED OATS,OLD FASHIONED OATS
-RASPBERRIES,raspberries,raspberries,aldi,RASPBERRIES,RASPBERRIES,RASPBERRIES
-BLUEBERRIES,blueberries,blueberries,aldi,BLUEBERRIES,BLUEBERRIES,BLUEBERRIES
-STRAWBERRIES,strawberries,strawberries,aldi,WHOLE STRAWBERRIES,WHOLE STRAWBERRIES,WHOLE STRAWBERRIES
-AVOCADOS,avocados,avocados,aldi,Avocados raw all commercial varieties,Avocados raw all commercial varieties,Avocados raw all commercial varieties
-CHIA SEEDS,chia seeds,chia seeds,aldi,CHIA SEEDS,CHIA SEEDS,CHIA SEEDS
-DATES,dates,dates,aldi,DATES,DATES,DATES
-BABY SPINACH 120G,baby spinach,baby spinach,aldi,BABY SPINACH,BABY SPINACH,BABY SPINACH
-TORTILLA WRAPS WHOLEMEAL,wholemeal tortilla wraps,wholemeal tortilla wraps,aldi,WHOLE GRAIN TORTILLA WRAPS,WHOLE GRAIN TORTILLA WRAPS,WHOLE GRAIN TORTILLA WRAPS
-BEETROOT SLICED 450G,sliced beetroot,beetroot,aldi,SLICED BEETROOT PICKLED IN SWEET MALT VINEGAR,SLICED BEETROOT PICKLED IN SWEET MALT VINEGAR,SLICED BEETROOT PICKLED IN SWEET MALT VINEGAR
-FZN MIXED BERRIES 500G,frozen mixed berries,frozen mixed berries,aldi,MIXED BERRIES,MIXED BERRIES,MIXED BERRIES
-HAM 4X100G,ham,ham,aldi,UNCURED HAM,UNCURED HAM,UNCURED HAM
-FROZ STEAM VEG 450G,frozen steamed vegetables,frozen steamed vegetables,aldi,FRESH FROZEN VEGETABLES,FRESH FROZEN VEGETABLES,FRESH FROZEN VEGETABLES
-RICE CRACKERS 200G,rice crackers,rice crackers,aldi,RICE CRACKERS,RICE CRACKERS,RICE CRACKERS
-PINK LADY APPLES,pink lady apples,pink lady apples,aldi,PINK LADY APPLES,PINK LADY APPLES,PINK LADY APPLES
-DIP SALSA,salsa dip,salsa,aldi,SALSA,SALSA,SALSA
-MAYONNAISE SQUEEZE,mayonnaise,mayonnaise,aldi,SQUEEZE MAYONNAISE,SQUEEZE MAYONNAISE,SQUEEZE MAYONNAISE
-WFM CLEMENTINE BAG,clementines,clementines,whole foods,Clementines raw,Clementines raw,Clementines raw
-CROFT STRAWBRY SPR,crofts strawberry spread,strawberry jam,whole foods,STRAWBERRY SPREAD,STRAWBERRY SPREAD,STRAWBERRY SPREAD
-BEANS GREEN,green beans,green beans,whole foods,WHOLE GREEN BEANS,WHOLE GREEN BEANS,WHOLE GREEN BEANS
-VIRGL CREAM SODA,virgils cream soda,cream soda,whole foods,VIRGILS CREAM SODA,VIRGILS CREAM SODA,VIRGILS CREAM SODA
-BULK ALMOND BUTTER,almond butter,almond butter,whole foods,ALMOND BUTTER,ALMOND BUTTER,ALMOND BUTTER
-365 LT CHNK TUNA,365 light chunk tuna,tuna,whole foods,CHUNK LIGHT TUNA,CHUNK LIGHT TUNA,CHUNK LIGHT TUNA
-BLACKBERRIES,blackberries,blackberries,whole foods,BLACKBERRIES,BLACKBERRIES,BLACKBERRIES
-CHKN BRST CUTLET,chicken breast cutlet,chicken breast,whole foods,LIGHTLY BREADED CHICKEN BREAST CUTLETS,LIGHTLY BREADED CHICKEN BREAST CUTLETS,LIGHTLY BREADED CHICKEN BREAST CUTLETS
-CHKN GRND THIGH,ground chicken thigh,ground chicken thigh,whole foods,CHICKEN THIGH MEAT,CHICKEN THIGH MEAT,CHICKEN THIGH MEAT
-OREO COOKIE,oreos,oreos,target,OREO CHOCOLATE SANDWICH COOKIES,OREO CHOCOLATE SANDWICH COOKIES,OREO CHOCOLATE SANDWICH COOKIES
-CHOBANI,chobani yogurt,yogurt,target,CHOBANI NON-FAT PLAIN GREEK YOGURT UPC: 818290010469,CHOBANI NON-FAT PLAIN GREEK YOGURT UPC: 818290010469,CHOBANI NON-FAT PLAIN GREEK YOGURT UPC: 818290010469
-BREYERS,breyers ice cream,ice cream,target,Ice creams BREYERS All Natural Light Vanilla,Ice creams BREYERS All Natural Light Vanilla,Ice creams BREYERS All Natural Light Vanilla
-AQUAF 2PK,aquafina bottled water,bottled water,target,Beverages water bottled non-carbonated PEPSI AQUAFINA,Beverages water bottled non-carbonated PEPSI AQUAFINA,Beverages water bottled non-carbonated PEPSI AQUAFINA
-MP EGGS,marketplace eggs,eggs,target,LARGE WHITE EGGS,LARGE WHITE EGGS,LARGE WHITE EGGS
-PUBLIX MED SALSA,publix medium salsa,medium salsa,publix,MEDIUM SALSA,MEDIUM SALSA,MEDIUM SALSA
-SM RAISIN SEEDLESS,sun maid seedless raisins,seedless raisins,publix,SEEDLESS CALIFORNIA RAISINS,SEEDLESS CALIFORNIA RAISINS,SEEDLESS CALIFORNIA RAISINS
-O R POPCORN,orville redenbacher popcorn,popcorn,publix,ORVILLE REDENBACHERS Butter Popcorn,ORVILLE REDENBACHERS Butter Popcorn,ORVILLE REDENBACHERS Butter Popcorn
-JIF PEANUT BUTTER,jif peanut butter,peanut butter,publix,PEANUT BUTTER,PEANUT BUTTER,PEANUT BUTTER
-PUB DRY RST PNUT,publix dry roasted peanuts,dry roasted peanuts,publix,DRY ROASTED PEANUTS,DRY ROASTED PEANUTS,DRY ROASTED PEANUTS
-L/L DBL CHOC CHIP,lenny & larrys double chocolate chip,double chocolate chip,publix,,,
-L/L PB CHOC CHIP,lenny & larrys peanut butter chocolate chip,peanut butter chocolate chip,publix,ORIGINAL DOUBLE CHOCOLATE CHIP COOKIE,ORIGINAL DOUBLE CHOCOLATE CHIP COOKIE,ORIGINAL DOUBLE CHOCOLATE CHIP COOKIE
-B/D WHL NAT ALMDS,blue diamond whole natural almonds,whole natural almonds,publix,BLUE DIAMOND ALMONDS WHOLE NATURAL,BLUE DIAMOND ALMONDS WHOLE NATURAL,BLUE DIAMOND ALMONDS WHOLE NATURAL
-BANANAS,bananas,bananas,publix,BANANAS,BANANAS,BANANAS
-LIMES PERSIAN,persian limes,limes,publix,PERSIAN LIMES,PERSIAN LIMES,PERSIAN LIMES
-NAPPA CABBAGE,nappa cabbage,nappa cabbage,hmart,NAPA CABBAGE,NAPA CABBAGE,NAPA CABBAGE
-PAPAYA,papaya,papaya,hmart,Papayas raw,Papayas raw,Papayas raw
-MATCHA KIT KAT,matcha kit kat,matcha kit kat,hmart,Candies KIT KAT Wafer Bar,Candies KIT KAT Wafer Bar,Candies KIT KAT Wafer Bar
-PICKLD SOUR RADISH,pickled sour radish,pickled sour radish,hmart,Radishes hawaiian style pickled,Radishes hawaiian style pickled,Radishes hawaiian style pickled
-CA NAVEL ORANGE,california navel orange,navel orange,hmart,CALIFORNIA NAVEL ORANGES,CALIFORNIA NAVEL ORANGES,CALIFORNIA NAVEL ORANGES
-QUAK QUICK OATS,quaker quick oats,quick oats,publix,Cereals QUAKER Quick Oats Dry,Cereals QUAKER Quick Oats Dry,Cereals QUAKER Quick Oats Dry
-PUBLIX HVY WHP CRM,publix heavy whipping cream,heavy whipping cream,publix,HEAVY WHIPPING CREAM,HEAVY WHIPPING CREAM,HEAVY WHIPPING CREAM
-BNLS CHICK BREAST,boneless chicken breast,boneless chicken breast,publix,BONELESS CHICKEN BREAST,BONELESS CHICKEN BREAST,BONELESS CHICKEN BREAST
-LAPASTA SQSH RAVLI,la pasta squash ravioli,squash ravioli,publix,BUTTERNUT SQUASH RAVIOLI,BUTTERNUT SQUASH RAVIOLI,BUTTERNUT SQUASH RAVIOLI
-DIGORNO PIZZA,digorno pizza,pizza,kroger,DIGIORNO Pizza cheese topping rising crust frozen baked,DIGIORNO Pizza cheese topping rising crust frozen baked,DIGIORNO Pizza cheese topping rising crust frozen baked
-WESSON OIL,wesson oil,oil,kroger,WESSON Vegetable Oil,WESSON Vegetable Oil,WESSON Vegetable Oil
-KING ARTHUR FLOUR,king arthur flour,flour,kroger,UNBLEACHED ALL-PURPOSE FLOUR,UNBLEACHED ALL-PURPOSE FLOUR,UNBLEACHED ALL-PURPOSE FLOUR
-FLA NATURAL JUICE,florida natural juice,juice,kroger,FLORIDAS NATURAL 100% PURE FLORIDA ORANGE JUICE,FLORIDAS NATURAL 100% PURE FLORIDA ORANGE JUICE,FLORIDAS NATURAL 100% PURE FLORIDA ORANGE JUICE
-KRO VGTBL CKSPRY,kroger vegetable cooking spray,vegetable cooking spray,kroger,VEGETABLE OIL COOKING SPRAY,VEGETABLE OIL COOKING SPRAY,VEGETABLE OIL COOKING SPRAY
-BARLLA MINI FARFLE,barilla mini farfalle,mini farfalle,kroger,MINI FARFALLE ENRICHED MACARONI PRODUCT,MINI FARFALLE ENRICHED MACARONI PRODUCT,MINI FARFALLE ENRICHED MACARONI PRODUCT
-LANDOLAKES HVY CRM,land olakes heavy cream,heavy cream,kroger,LAND O LAKES RICH & CREAMY HEAVY WHIPPING CREAM,LAND O LAKES RICH & CREAMY HEAVY WHIPPING CREAM,LAND O LAKES RICH & CREAMY HEAVY WHIPPING CREAM
-POTATOES RUSSET,russet potatoes,potatoes,kroger,RUSSET POTATOES,RUSSET POTATOES,RUSSET POTATOES
-KRO MUSHROOMS,kroger mushrooms,mushrooms,kroger,MUSHROOMS,MUSHROOMS,MUSHROOMS
-APPLES HONEYCRISP,honeycrisp apples,apples,kroger,HONEYCRISP APPLES,HONEYCRISP APPLES,HONEYCRISP APPLES
-PLBRY CRSCNT ROLLS,pillsbury crescent rolls,crescent rolls,kroger,Pillsbury Original Crescent Rounds 8 Count,Pillsbury Original Crescent Rounds 8 Count,Pillsbury Original Crescent Rounds 8 Count
-NTHN BF FRNK,nathan beef frank,beef frank,kroger,BEEF FRANKS,BEEF FRANKS,BEEF FRANKS
-FAGE TOTAL YOGURT,fage total yogurt,yogurt,kroger,TOTAL GREEK STRAINED YOGURT,TOTAL GREEK STRAINED YOGURT,TOTAL GREEK STRAINED YOGURT
-BOK CHOY ORG,bok choy organic,bok choy,kroger,BOK CHOY,BOK CHOY,BOK CHOY
-CUCUMBERS,cucumbers,cucumbers,kroger,FRESH CUCUMBERS,FRESH CUCUMBERS,FRESH CUCUMBERS
-KRO VAN EXTRCT,kroger vanilla extract,vanilla extract,kroger,PURE VANILLA EXTRACT,PURE VANILLA EXTRACT,PURE VANILLA EXTRACT
-BRHD PRV CHS,boars head provolone cheese,cheese,kroger,BOARS HEAD PROVOLONE CHEESE,BOARS HEAD PROVOLONE CHEESE,BOARS HEAD PROVOLONE CHEESE
-POST HB OAT CRL,post honey bunches of oats cereal,cereal,kroger,HONEY BUNCHES OF OATS,HONEY BUNCHES OF OATS,HONEY BUNCHES OF OATS
-JIF PEANUT BUTTER,jif peanut butter,peanut butter,kroger,PEANUT BUTTER,PEANUT BUTTER,PEANUT BUTTER
-ODWL JUICE,odwalla juice,juice,kroger,ODWALLA 100% JUICE,ODWALLA 100% JUICE,ODWALLA 100% JUICE
-PREGO PASTA SAUCE,prego pasta sauce,pasta sauce,kroger,PASTA SAUCE,PASTA SAUCE,PASTA SAUCE
-TFYN PITA BR,toufayan pita bread,pita bread,kroger,CLASSIC WHITE PITA BREAD,CLASSIC WHITE PITA BREAD,CLASSIC WHITE PITA BREAD
-LA BNDTA TORTILLA,la banderita tortilla,tortilla,kroger,LA BANDERITA SOFT TACO FLOUR TORTILLAS,LA BANDERITA SOFT TACO FLOUR TORTILLAS,LA BANDERITA SOFT TACO FLOUR TORTILLAS
-BRHD HNY HAM,boars head honey ham,honey ham,kroger,HONEY HAM,HONEY HAM,HONEY HAM
-SALMON ATL FLT,atlantic salmon fillet,salmon,kroger,SALMON,SALMON,SALMON
-ZUCCHINI,zucchini,zucchini,kroger,ZUCCHINI,ZUCCHINI,ZUCCHINI
-TOMATOES RED OTV,red tomatoes on the vine,tomatoes,kroger,TOMATOES ON THE VINE,TOMATOES ON THE VINE,TOMATOES ON THE VINE
-KROGER MILK,kroger milk,milk,kroger,MILK,MILK,MILK
-RONZ LINGUINE,ronzoni linguine,linguine,kroger,LINGUINE,LINGUINE,LINGUINE
-BROCCOLI CROWNS,broccoli crowns,broccoli crowns,kroger,BROCCOLI,BROCCOLI,BROCCOLI
-APL GALA,gala apple,apple,kroger,GALA APPLES,GALA APPLES,GALA APPLES
-DKB BAGELS CIN/RSN,daves killer bagels cinnamon/raisin,bagels,publix,RAISIN CINNAMON BAGELS,RAISIN CINNAMON BAGELS,RAISIN CINNAMON BAGELS
-CHOBANI 0% 4 PACK,chobani 0% fat,yogurt,publix,GREEK YOGURT,GREEK YOGURT,GREEK YOGURT
-CHOBANI 2% 4 PACK,chobani 2% fat,yogurt,publix,GREEK YOGURT,GREEK YOGURT,GREEK YOGURT
-ORG APPLES HONEYCR,organic honeycrisp apples,apples,publix,HONEYCRISP APPLES,HONEYCRISP APPLES,HONEYCRISP APPLES
-NASOYA CUBED TFU,nasoya cubed tofu,tofu,publix,TOFU,TOFU,TOFU
-MAYFIELD SELECTS,mayfield selects,ice cream,publix,ICE CREAM,ICE CREAM,ICE CREAM
-GOOD THN SWT POTAT,good thin sweet potato,sweet potato,publix,GOOD THINS CRACKERS SWEET POTATO 1X6.5 OZ,GOOD THINS CRACKERS SWEET POTATO 1X6.5 OZ,GOOD THINS CRACKERS SWEET POTATO 1X6.5 OZ
-KBLR FUDGE STRIPES,keebler fudge stripes,cookies,publix,FUDGE STRIPES COOKIES,FUDGE STRIPES COOKIES,FUDGE STRIPES COOKIES
-PUBLIX EGGS JUMBO,publix jumbo eggs,eggs,publix,EGGS,EGGS,EGGS
-OG GW BABY SPINACH,organic baby spinach,spinach,publix,BABY SPINACH,BABY SPINACH,BABY SPINACH
-CHO PLAIN 5% 32OZ,chobani plain 5% 32 oz yogurt,yogurt,publix,GREEK YOGURT,GREEK YOGURT,GREEK YOGURT
-PRINGLES,pringles,pringles,target,PRINGLES,PRINGLES,PRINGLES
-SLIM JIM,slim jim,slim jim,target,SLIM JIM Original Smoked Snack Sticks,SLIM JIM Original Smoked Snack Sticks,SLIM JIM Original Smoked Snack Sticks
-PLSBRY COOKI,pillsbury cookie,cookie,target,Pillsbury Chocolate Chip Cookie Dough,Pillsbury Chocolate Chip Cookie Dough,Pillsbury Chocolate Chip Cookie Dough
-YOCRUNCH,yocrunch,yogurt,target,YOCRUNCH LOWFAT YOGURT VANILLA,YOCRUNCH LOWFAT YOGURT VANILLA,YOCRUNCH LOWFAT YOGURT VANILLA
-V8,v8,v8,target,V8 BEVERAGE VEGETABLE,V8 BEVERAGE VEGETABLE,V8 BEVERAGE VEGETABLE
-BANANA,banana,banana,target,BANANA,BANANA,BANANA
-MP 2 PC MILK,market pantry 2% milk,milk,target,MILK,MILK,MILK
-CHEETOS,cheetos,cheetos,target,Cheetos Puffs Cheese Flavored Snacks 2.375 Ounce Plastic Bag,Cheetos Puffs Cheese Flavored Snacks 2.375 Ounce Plastic Bag,Cheetos Puffs Cheese Flavored Snacks 2.375 Ounce Plastic Bag
-LAYS,lays,lays,target,Lays Baked Potato Crisps 10.25 ounce Plastic Bag,Lays Baked Potato Crisps 10.25 ounce Plastic Bag,Lays Baked Potato Crisps 10.25 ounce Plastic Bag
-MARUCHN SOUP,maruchan soup,soup,target,RAMEN NOODLES,RAMEN NOODLES,RAMEN NOODLES
-CRKLN OATBRN,cracklin oat bran,cereal,target,Kelloggs Cracklin Oat Bran Cereal 17oz,Kelloggs Cracklin Oat Bran Cereal 17oz,Kelloggs Cracklin Oat Bran Cereal 17oz
-LEAN CUISINE,lean cuisine,lean cuisine,target,LEAN CUISINE CLASSIC MACARONI & BEEF,LEAN CUISINE CLASSIC MACARONI & BEEF,LEAN CUISINE CLASSIC MACARONI & BEEF
-COKE CLASSIC,coke classic,coke,target,Coca-Cola Bottle 20 fl oz,Coca-Cola Bottle 20 fl oz,Coca-Cola Bottle 20 fl oz
-FRITOS,fritos,fritos,target,Fritos Original Corn Chips 4.0 Ounce Plastic Bag,Fritos Original Corn Chips 4.0 Ounce Plastic Bag,Fritos Original Corn Chips 4.0 Ounce Plastic Bag
-BROCCO CAUL,broccoli cauliflower,broccoli,target,BROCCOLI,BROCCOLI,BROCCOLI
-KRO MUSHROOMS,kroger mushrooms,mushrooms,kroger,MUSHROOMS,MUSHROOMS,MUSHROOMS
-STO BABY SPINACH,simple truth organic baby spinach,organic baby spinach,kroger,BABY SPINACH,BABY SPINACH,BABY SPINACH
-CLEMNTNES,clementines,clementines,kroger,CLEMENTINE,CLEMENTINE,CLEMENTINE
-CUCUMBERS,cucumbers,cucumbers,kroger,FRESH CUCUMBERS,FRESH CUCUMBERS,FRESH CUCUMBERS
-BROCCOLI,broccoli,broccoli,kroger,BROCCOLI,BROCCOLI,BROCCOLI
-PREGO PASTA SAUCE,prego pasta sauce,pasta sauce,kroger,PASTA SAUCE,PASTA SAUCE,PASTA SAUCE
-TURKEY HLL ICE CRM,turkey hill ice cream,ice cream,kroger,ICE CREAM,ICE CREAM,ICE CREAM
-AIDL SAUSAGE,aidell sausage,sausage,kroger,,,
-KROGER EGGS,kroger eggs,eggs,kroger,EGGS,EGGS,EGGS
-PLANTAINS,plantains,plantains,kroger,,,
-APPLES HONEYCRISP,honeycrisp apples,apples,kroger,HONEYCRISP APPLES,HONEYCRISP APPLES,HONEYCRISP APPLES
-BH MAPLE HONEY HAM,boars head maple honey ham,honey ham,publix,MAPLE HONEY HAM,MAPLE HONEY HAM,MAPLE HONEY HAM
-GW EVRTHNG BGLS 4C,greenwise everything bagels 4c,everything bagels,publix,EVERYTHING BAGELS BAGELS,EVERYTHING BAGELS BAGELS,EVERYTHING BAGELS BAGELS
-TROPICANA OJ,tropicana oj,oj,kroger,PURE 100% FLORIDA ORANGE JUICE,PURE 100% FLORIDA ORANGE JUICE,PURE 100% FLORIDA ORANGE JUICE
-PFRM GOLDFISH,pepperidge farm goldfish,goldfish,kroger,,,
-NTLA HZLNT SPREAD,nutella hazelnut spread,nutella,kroger,HAZELNUT SPREAD,HAZELNUT SPREAD,HAZELNUT SPREAD
-CABBAGE NAPPA,nappa cabbage,nappa cabbage,kroger,NAPPA CABBAGE,NAPPA CABBAGE,NAPPA CABBAGE
-BARLLA LINGUINE,barilla linguine,linguine,kroger,LINGUINE ENRICHED MACARONI PRODUCT,LINGUINE ENRICHED MACARONI PRODUCT,LINGUINE ENRICHED MACARONI PRODUCT
-BELG MOZ BLS,belgioioso mozzarella balls,mozzarella balls,kroger,FRESH MOZZARELLA,FRESH MOZZARELLA,FRESH MOZZARELLA
-PEPPERS BELL RED,red bell peppers,red bell peppers,kroger,,,
-PEACHES WHITE,white peaches,white peaches,kroger,,,
-POST HNY BNCH OAT,post honey bunches of oats,honey bunches of oats,kroger,HONEY BUNCHES OF OATS CEREAL,HONEY BUNCHES OF OATS CEREAL,HONEY BUNCHES OF OATS CEREAL
-BLUEBERRIES,blueberries,blueberries,kroger,,,
-PHLLY CREAM CHEESE,philadelphia cream cheese,cream cheese,kroger,PHILADELPHIA CREAM CHEESE-SOFT PLAIN,PHILADELPHIA CREAM CHEESE-SOFT PLAIN,PHILADELPHIA CREAM CHEESE-SOFT PLAIN
-PRDU CH THGH,purdue chicken thigh,chicken thigh,kroger,PERDUE CHICKEN THIGHS,PERDUE CHICKEN THIGHS,PERDUE CHICKEN THIGHS
-STNFR GARLIC NAAN,stonefire garlic naan,garlic naan,kroger,GARLIC NAAN,GARLIC NAAN,GARLIC NAAN
-KRO PNAPL CHNK JCE,kroger pineapple chunk juice,pineapple chunk juice,kroger,PINEAPPLE CHUNKS,PINEAPPLE CHUNKS,PINEAPPLE CHUNKS
-MSSN TORTLLA,mission tortilla,tortilla,kroger,TORTILLA,TORTILLA,TORTILLA
-PILLSBURY CRESCENT,pillsbury crescent,crescent,kroger,CRESCENT,CRESCENT,CRESCENT
-O M FRANKS,oscar mayer franks,franks,kroger,FRANKS,FRANKS,FRANKS
-LEMONS,lemons,lemons,kroger,,,
-QUAKER OATMEAL,quaker oatmeal,oatmeal,kroger,,,
-MANDARINS BAG,mandarins bag,mandarins,kroger,,,
-BKCN COOKIES,,,,,,
-PRSL COOKIE,private selection cookie,cookie,kroger,,,
-PRSL 12 GRAIN BRD,,,,,,
-QUAKER OATMEAL,quaker oatmeal,oatmeal,kroger,,,
-KRO BUFFALO,kroger buffalo,buffalo,kroger,,,
-KRO TUNA PCH,kroger tuna,tuna,kroger,,,
-KRO LMN PEPPR,kroger lemon pepper,lemon pepper,kroger,,,
-KRO TUNA,kroger tuna,tuna,kroger,,,
-KRO VITAMIN D MILK,kroger vitamin d milk,milk,kroger,VITAMIN D MILK,VITAMIN D MILK,VITAMIN D MILK
-KRO POTATO,kroger potato,potato,kroger,,,
-ONIONS SWT YELLOW,onions sweet yellow,onions,kroger,,,
-APL GALA EAST XF,apples gala east,apples,kroger,GALA APPLES,GALA APPLES,GALA APPLES
-CABBAGE,cabbage,cabbage,kroger,,,
-KRO CAULIFLOWER FLPC,kroger cauliflower,cauliflower,kroger,,,
-KRO MUSHROOMS,kroger mushrooms,mushrooms,kroger,,,
-KRO HONEY BEAR,kroger honey bear,honey,kroger,,,
-KRO TOMATOES,kroger tomatoes,tomatoes,kroger,,,
-KRO SALSA,kroger salsa,salsa,kroger,,,
-PRINGLES,pringles,chips,target,,,
-CAMPBELLS CH,campbells cream of chicken,soup,target,,,
-CAMPBELLS,campbells,soup,target,,,
-MARUCHN SOUP,maruchan soup,ramen,target,,,
-MP 2 PC MILK,market pantry 2 percent milk,milk,target,,,
-YOCRUNCH,yocrunch,yogurt,target,YOCRUNCH,YOCRUNCH,YOCRUNCH
-CAPRI SUN,capri sun,juice,target,,,
-PEARLS,olives,olives,target,PEARLS,PEARLS,PEARLS
-MP PASTA SCE,market pantry pasta sauce,pasta sauce,target,PASTA SAUCE,PASTA SAUCE,PASTA SAUCE
-LEAN CUISINE,lean cuisine,lean cuisine,target,LEAN CUISINE,LEAN CUISINE,LEAN CUISINE
-DEVOUR,devour,devour,target,,,
-NEWYOR BREAD,newyork bread,garlic bread,target,,,
-FAIRLIFE,fairlife,ice cream,target,,,
-OS CRAN POM,ocean spray cranberry pomegranate juice,juice,walmart,,,
-CAMPARI TOM,campari tomatoes,tomatoes,walmart,,,
-KFT SINGLES,kraft singles,cheese,walmart,,,
-HARD SALAMI,hard salami,salami,walmart,,,
-APL GOLD DEL,golden delicious apples,apple,kroger,GOLDEN DELICIOUS APPLES,GOLDEN DELICIOUS APPLES,GOLDEN DELICIOUS APPLES
-BREAD,bread,bread,walmart,BREAD,BREAD,BREAD
-CIDER,cider,cider,walmart,CIDER,CIDER,CIDER
-ORGANIC RND YELLOW TORT CHIPS,organic round yellow tortilla chips,tortilla chips,trader joes,ORGANIC TORTILLA CHIPS,ORGANIC TORTILLA CHIPS,ORGANIC TORTILLA CHIPS
-ORGANIC SUGAR,organic sugar,sugar,trader joes,,,
-BEANS ORGANIC GARBANZO,organic garbanzo beans,garbanzo beans,trader joes,ORGANIC GARBANZO BEANS,ORGANIC GARBANZO BEANS,ORGANIC GARBANZO BEANS
-CHOC CHUNKS SEMI SWEET 10 OZ,semi sweet chocolate chunks,chocolate,trader joes,,,
-SPAGHETTI TOMATO SAUCE ORGANIC,organic spaghetti tomato sauce,tomato sauce,trader joes,,,
-A-POTATO EACH RUSSET,russet potato,potato,trader joes,,,
-R-CARROTS WHOLE ORG,organic carrots,carrot,trader joes,,,
-A-AVOCADOS EACH HASS 40 CT,hass avocados,avocados,trader joes,,,
-A-CUCUMBERS PERSIAN 14 OZ,persian cucumbers,cucumbers,trader joes,,,
-TRADITIONAL REFRIED BEANS,refried beans,beans,trader joes,,,
-GV 5LB BRST,great value chicken breast,chicken breast,walmart,,,
-GV 2 RF MLK,great value 2% reduced fat milk,milk,walmart,,,
-PANCAKE MIX,pancake mix,pancake mix,walmart,PANCAKE MIX,PANCAKE MIX,PANCAKE MIX
-HNY MPL BCN,honey maple bacon,bacon,walmart,,,
-SAUS LINKS,sausage links,sausage,walmart,SAUSAGE LINKS,SAUSAGE LINKS,SAUSAGE LINKS
-GARLIC SALT,garlic salt,garlic salt,walmart,GARLIC SALT,GARLIC SALT,GARLIC SALT
-JALAPENO,jalapeno,jalapeno,walmart,,,
-GV CHED SHED,great value shredded cheddar,cheese,walmart,,,
-GV BRWN RICE,great value brown rice,brown rice,walmart,,,
-BELL PEPPER,bell pepper,bell pepper,walmart,,,
-RED PEPPER,red pepper,red pepper,walmart,,,
-ORANGE PEPPER,orange pepper,orange pepper,walmart,,,
-EGGS,eggs,eggs,walmart,,,
-CILANTRO,cilantro,ciltrano,walmart,,,
-1PCT MILK,1% milk,milk,kroger,,,
-KROGER MILK,kroger milk,milk,kroger,MILK,MILK,MILK
-KROGER JUICE,kroger juice,orange juice,kroger,,,
-GM CINN TST CRUNCH,general mills cinnamon toast crunch,cereal,kroger,GENERAL MILLS CEREAL CINNAMON TOAST CRUNCH,GENERAL MILLS CEREAL CINNAMON TOAST CRUNCH,GENERAL MILLS CEREAL CINNAMON TOAST CRUNCH
-KRO JAM,kroger jam,jam,kroger,,,
-BANANAS,bananas,bananas,kroger,,,
-STO POWER GREENS,simple truth organic power greens,spinach,kroger,POWER GREENS,POWER GREENS,POWER GREENS
-STO RED DEL POUCH,simple truth organic red delicious apples,apples,kroger,,,
-CARROTS,carrots,carrots,kroger,CARROTS,CARROTS,CARROTS
-KRO COF MOOSE TRK,kroger coffee moose tracks greek yogurt,yogurt,kroger,GREEK YOGURT,GREEK YOGURT,GREEK YOGURT
-LINDT CHOCOLATE,lindt chocolate,chocolate,kroger,"LINDT, MILK CHOCOLATE",MILK CHOCOLATE,"LINDT, MILK CHOCOLATE"
-GREEN PEPPERS,green peppers,green bell peppers,kroger,GREEN PEPPER,GREEN PEPPER,GREEN PEPPER
-LIMES,limes,limes,kroger,PERSIAN LIMES,PERSIAN LIMES,PERSIAN LIMES
-AVOCADO HASS,avocado hass,avocados,kroger,AVOCADO,AVOCADO,AVOCADO
-ONION YLW COLOSS,yellow onion,onions,kroger,YELLOW ONION,YELLOW ONION,YELLOW ONION
-POTATO RUSSET,russet potato,potatoes,kroger,RUSSET POTATO,RUSSET POTATO,RUSSET POTATO
-LEMONS,lemons,lemons,kroger,LEMONS,LEMONS,LEMONS
-KRO BREAD,kroger bread,bread,kroger,BREAD,BREAD,BREAD
-GTS KOMBCHA,gts kombucha,kombucha,kroger,"GT'S, ORGANIC RAW KOMBUCHA, CITRUS",ORGANIC RAW KOMBUCHA,"GT'S, ORGANIC RAW KOMBUCHA"
-CHETO HOT PUFFS,cheetos hot puffs,chips,publix,Cheetos Hot 9.5z,Cheetos Hot 9.5z,Cheetos Hot 9.5z
-CHETO PUFFS CHEESE,cheetos cheese puffs,chips,publix,Cheetos Puffs Cheese Flavored Snacks 2.375 Ounce Plastic Bag,Cheetos Puffs Cheese Flavored Snacks 2.375 Ounce Plastic Bag,Cheetos Puffs Cheese Flavored Snacks 2.375 Ounce Plastic Bag
-LAYS PARTY SIZE,lays party size,chips,publix,Lays Baked Potato Crisps 10.25 ounce Plastic Bag,Lays Baked Potato Crisps 10.25 ounce Plastic Bag,Lays Baked Potato Crisps 10.25 ounce Plastic Bag
-LACROIX BERRY WTR,lacroix berry water,soda,publix,"LACROIX, CURATE NATURALLY ESSENCED SPARKLING WATER, PINK GRAPEFRUIT",CURATE NATURALLY ESSENCED SPARKLING WATER,"LACROIX, CURATE NATURALLY ESSENCED SPARKLING WATER"
-LACROIX ORANGE,lacroix orange,soda,publix,"LACROIX, CURATE NATURALLY ESSENCED SPARKLING WATER, PINK GRAPEFRUIT",CURATE NATURALLY ESSENCED SPARKLING WATER,"LACROIX, CURATE NATURALLY ESSENCED SPARKLING WATER"
-COCA-COLA CLASSIC,coca-cola classic,soda,publix,Coca-Cola Bottle 20 fl oz,Coca-Cola Bottle 20 fl oz,Coca-Cola Bottle 20 fl oz
-COCA-COLA ZERO,coca-cola zero,soda,publix,"Coca-Cola Zero Sugar Bottle, 8.5 fl oz",Coca-Cola Zero Sugar Bottle,Coca-Cola Zero Sugar Bottle
-SPRITE,sprite,soda,publix,"Sprite Bottle, 20 fl oz",Sprite Bottle,Sprite Bottle
-CHERRY COKE,cherry coke,soda,publix,"Coca-Cola Cherry Bottles, 16.9 fl oz, 6 Pack",Coca-Cola Cherry Bottles,Coca-Cola Cherry Bottles
-C SHLBY CHLI,carroll shelbys chili kit,spices,kroger,"CARROLL SHELBY'S, ORIGINAL TEXAS BRAND, CHILI SEASONING KIT",ORIGINAL TEXAS BRAND,"CARROLL SHELBY'S, ORIGINAL TEXAS BRAND"
-RED BARRON PIZZA,red barron pizza,pizza,kroger,"RED BARRON, PIZZA, SAUSAGE, SUPREME",PIZZA,"RED BARRON, SAUSAGE"
-CHICKN BROTH,chicken broth,chicken broth,walmart,CHICKEN BROTH,CHICKEN BROTH,CHICKEN BROTH
-PORT WINE,port wine,wine,walmart,,,
-GV BBQ,great value barbeque sauce,barbeque sauce,walmart,BARBEQUE SAUCE,BARBEQUE SAUCE,BARBEQUE SAUCE
-KETCHUP,ketchup,ketchup,walmart,KETCHUP,KETCHUP,KETCHUP
-GV ORANG JCE,great value orange juice,orange juice,walmart,ORANGE JUICE,ORANGE JUICE,ORANGE JUICE
-3 ORANGES,3 lb oranges,oranges,walmart,ORANGES,ORANGES,ORANGES
-SHALLOTS,shallots,shallots,walmart,SHALLOTS,SHALLOTS,SHALLOTS
-GREEN ONION,green onion,green onion,walmart,,,
-GINGER ROOT,ginger root,ginger,walmart,GINGER,GINGER,GINGER
-CARROTS SNACK SIZE,snack size carrots,carrots,publix,CARROTS,CARROTS,CARROTS
-TOTINOS PIZZA,totinos pizza rolls,pizza rolls,publix,,,
-APPLES MCINTOSH LG,large mcintosh apples,apples,publix,,,
-PEARS BARTLETT,bartlett pears,pears,publix,,,
-CHWY PPRMNT MENTOS,chewy peppermint mentos,mints,publix,,,
-OJ TROP PURE,tropicana pure orange juice,orange juice,publix,,,
-PUBLIX MILK,publix milk,milk,publix,,,
-KIT KAT,kit kat,candy,publix,,,
-ALMOND JOY SNACK,almond joy snack,candy,publix,,,
-SUNKIST ORANGE,sunkist orange,oranges,publix,,,
-TGIF POPCORN CKN,tgif popcorn chicken,popcorn chicken,publix,,,
-DELIZZA ECLAIRS,delizza eclairs,eclairs,publix,,,
-UNBLEACHED BRD FLR,unbleached bread flour,bread flour,publix,,,
-CANTALOUPES,cantaloupes,cantaloupes,publix,,,
-MOTTS APP WHT GRP,motts apple white grape juice,juice,publix,,,
-PBLX ITAL BRD CRMB,publix italian bread crumbs,bread crumbs,publix,,,
-KENS BALS/BASIL,kens balsamic/basil dressing,salad dressing,publix,,,
-KENS RANCH,kens ranch,ranch,publix,,,
-PETER PAN PNUT/BTR,peter pan peanut butter,peanut butter,publix,,,
-MAXWELL HOUSE COFF,maxwell house coffee,coffee,publix,,,
-PUBLIX MARINARA SA,publix marinara sauce,marinara sauce,publix,,,
-EUREKA WHEAT BRD,eureka wheat bread,bread,publix,,,
-KRO 1% LF MILK,kroger 1% lowfat milk,milk,kroger,,,
-KROGER KTL CHPS,kroger kettle chips,chips,kroger,,,
-KRO BREAD,kroger bread,bread,kroger,,,
-MCCORMCK CHLI MX,mccormick chili mix,spices,kroger,,,
-ROMAINE HEARTS,romaine hearts,romaine,kroger,,,
-KRO GRND TRKY,kroger ground turkey,ground turkey,kroger,,,
-CKN BRST BL SL,chicken breast boneless skinless,chicken breast,kroger,,,
-KROGER MUSTARD,kroger mustard,mustard,kroger,,,
-KRO PASTA SAUCE,kroger pasta sauce,pasta sauce,kroger,,,
-KROGER BEANS,kroger beans,beans,kroger,,,
-APL CRIPPS PINK,cripps pink apple,apples,kroger,,,
-KROGER FRZN VEG,kroger frozen vegetables,frozen vegetables,kroger,,,
-KRO GRK VAN YOGURT,kroger greek vanilla yogurt,yogurt,kroger,,,
-PRSL PIZZA,private selections pizza,pizza,kroger,,,
-STO BABY ARUGULA,simple truth organic baby arugula,baby arugula,kroger,,,
-NBSC BLVTA,nabisco belvita,breakfast biscuit,kroger,,,
-MCCAFE COFFEE,mccafe coffee,coffee,kroger,,,
-KRO HONEY BEAR,kroger honey bear,honey,kroger,,,
-KROGER OATS,kroger oats,oats,kroger,,,
-HALOTOP ICE CREAM,halo top ice cream,ice cream,kroger,,,
-KRO PEANUT BUTTER,kroger peanut butter,peanut butter,kroger,,,
-MRES DRSNG,maries dressing,salad dressing,kroger,,,
-CASCADIAN GRANOLA,cascadian farms granola,granola,kroger,,,
-ST COOKIES,simple truth cookies,cookies,kroger,,,
-CA PZ KTCH PIZZA,california pizza kitchen pizza,pizza,kroger,,,
-STO BLUE TORTILLA,simple truth organic blue tortilla chips,tortilla chips,kroger,,,
-KROGER EGGS,kroger eggs,eggs,kroger,,,
-STO WHITE TORTILLA,simple truth organic white tortilla chips,tortilla chips,kroger,,,
-KRO DRIED CRANBERR,kroger dried cranberries,cranberries,kroger,,,
-APPLES HONEYCRISP,honeycrisp apples,apples,kroger,,,
-STO ORG TOFU,simple truth organic tofu,tofu,kroger,ORGANIC SOFT TOFU,ORGANIC SOFT TOFU,ORGANIC SOFT TOFU
-STO FRZ CHERRIES,simple truth organic frozen cherries,frozen cherries,kroger,MARASCHINO CHERRIES,MARASCHINO CHERRIES,MARASCHINO CHERRIES
-KRO PICKLES,kroger pickles,pickles,kroger,PICKLES,PICKLES,PICKLES
-KRO STHWEST KIT,kroger southwest salad kit,salad kit,kroger,PREMIUM SOUTHWEST SALAD KIT,PREMIUM SOUTHWEST SALAD KIT,PREMIUM SOUTHWEST SALAD KIT
-KRO SHRED CHEESE,kroger shredded cheese,shredded cheese,kroger,SHREDDED CHEESE,SHREDDED CHEESE,SHREDDED CHEESE
-AVOCADO HASS,avocado hass,avocado,kroger,HASS AVOCADOS,HASS AVOCADOS,HASS AVOCADOS
-GARLIC X-JUMBO,clove of garlic,clove garlic,kroger,WHOLE CLOVE GARLIC,WHOLE CLOVE GARLIC,WHOLE CLOVE GARLIC
-GRAPEFRUIT RED ESTPC,grapefruit red,grapefruit,kroger,RED GRAPEFRUIT,RED GRAPEFRUIT,RED GRAPEFRUIT
-VGND SWT POT SPR PC,veggie noodle sweet potato spirals,veggie noodle sweet potato spirals,kroger,,,
-CELERY,celery,celery,kroger,CELERY,CELERY,CELERY
-MC CILANTRO LEAVES,cilantro leaves,cilantro,publix,"TERANA, CHOPPED CILANTRO LEAVES",CHOPPED CILANTRO LEAVES,"TERANA, CHOPPED CILANTRO LEAVES"
-TOMATO ON THE VINE,tomato on the vine,tomato,publix,TOMATOES ON THE VINE,TOMATOES ON THE VINE,TOMATOES ON THE VINE
-AVOCADOS HASS,avocado hass,avocado,publix,HASS AVOCADOS,HASS AVOCADOS,HASS AVOCADOS
-CHERRIES,cherries,cherries,publix,MARASCHINO CHERRIES,MARASCHINO CHERRIES,MARASCHINO CHERRIES
-PEACHES PREMIUM,peaches premium,peaches,publix,PEACHES,PEACHES,PEACHES
-ONION SPANISH,onion spanish,onion,publix,ONION,ONION,ONION
-MCCORMICK OREGANO,mccormick oregano,oregano,publix,OREGANO,OREGANO,OREGANO
-MANDARINS,mandarins,mandarins,publix,MANDARINS,MANDARINS,MANDARINS
-BANANAS,bananas,bananas,publix,BANANAS,BANANAS,BANANAS
-CHICKEN TENDERS,chicken tenders,chicken tenders,publix,CHICKEN TENDERS,CHICKEN TENDERS,CHICKEN TENDERS
-TERRAPIN IPA,terrapin ipa,terrapin ipa,publix,,,
-GARDEN LIFE ROMAIN,garden life romain lettuce,lettuce,publix,,,
-CUCUMBERS,cucumbers,cucumbers,publix,fresh cucumbers,fresh cucumbers,fresh cucumbers
-PBX ART SPIN DIP,publix artichoke spinach dip,artichoke spinach dip,publix,ARTICHOKE SPINACH DIP,ARTICHOKE SPINACH DIP,ARTICHOKE SPINACH DIP
-3PC CHICK TEN DIN,3 piece chicken tender dinner,chicken tenders,publix,CHICKEN TENDERS,CHICKEN TENDERS,CHICKEN TENDERS
-CAPE COD WAVES SLT,cape cod waves salted potato chips,potato chips,publix,POTATO CHIPS,POTATO CHIPS,POTATO CHIPS
-BARCEL TAKIS FUEGO,barcel takis fuego,chips,publix,"BARCEL, TAKIS, TORTILLA CHIPS, HOT",TAKIS,"BARCEL, TORTILLA CHIPS"
-PUBLIX FROZEN FRUI,publix frozen fruit,frozen fruit,publix,FROZEN FRUIT BLEND,FROZEN FRUIT BLEND,FROZEN FRUIT BLEND
-DAISY COTT CHS 2%,daisy cottage cheese 2%,cottage cheese,publix,COTTAGE CHEESE,COTTAGE CHEESE,COTTAGE CHEESE
-PEP FARM GOLDFISH,pepridge farm goldfish,goldfish,shaws,,,
-SIG POPCORN WHITE,signature white popcorn,pocorn,shaws,WHITE POPCORN,WHITE POPCORN,WHITE POPCORN
-SIG GREEN BEANS WH,signature whole green beans canned,canned green beans,shaws,WHOLE GREEN BEANS,WHOLE GREEN BEANS,WHOLE GREEN BEANS
-COLLEGE INN BOLD,college inn beef broth,beef broth,shaws,BEEF BROTH,BEEF BROTH,BEEF BROTH
-QUAKER CEREAL LIFE,quaker life cereal,cereal,shaws,,,
-OCEAN SPRAY JUICE,ocean spray juice,juice,shaws,,,
-MARTINELLI CIDAR S,martinelli cidar,cidar,shaws,,,
-WELCHS SPARKLING,welchs sparkling grape juice,sparkling grape juice,shaws,SPARKLING GRAPE JUICE,SPARKLING GRAPE JUICE,SPARKLING GRAPE JUICE
-NBC OREO CKY REG,nabisco oreo cookie regular,oreos,shaws,NABISCO OREO COOKIES OREO 1X10.700 OZ,NABISCO OREO COOKIES OREO 1X10.700 OZ,NABISCO OREO COOKIES OREO 1X10.700 OZ
-COCA COLA CLASSIC,coca cola classic,coke,shaws,,,
-PILLS BREAD FLOUR,pillsbury bread flour,flour,shaws,BREAD FLOUR,BREAD FLOUR,BREAD FLOUR
-GATORADE CHERRY,cherry gatorade,gatorade,shaws,Gatorade Frost Glacier Cherry Thirst Quencher 32 Fluid Ounce Bottle,Gatorade Frost Glacier Cherry Thirst Quencher 32 Fluid Ounce Bottle,Gatorade Frost Glacier Cherry Thirst Quencher 32 Fluid Ounce Bottle
-GATORADE GLACIER,gatorade glacier,gatorade,shaws,Gatorade Frost Glacier Cherry Thirst Quencher 32 Fluid Ounce Bottle,Gatorade Frost Glacier Cherry Thirst Quencher 32 Fluid Ounce Bottle,Gatorade Frost Glacier Cherry Thirst Quencher 32 Fluid Ounce Bottle
-MS GARLIC SALT,mccormick garlic salt,garlic salt,shaws,GARLIC SALT,GARLIC SALT,GARLIC SALT
-ARIZONA SWT TEA,arizona sweat tea,sweat tea,shaws,,,
-PLN CRN RCE SNK,plain corn rice snack,corn rice snack,shaws,,,
-TWINIGS CLSC PRNCE,twinings classic prince of whales,tea,shaws,,,
-BC COOL IN BLUE 6,bc cool in blue 6 types,sprinkles,shaws,,,
-CL GEL FOOD COLORS,gel food colors,food coloring,shaws,GEL FOOD COLORS,GEL FOOD COLORS,GEL FOOD COLORS
-BIGELOW TEA OOLONG,bigelow oolong tea,tea,shaws,ORGANIC OOLONG TEA BAGS,ORGANIC OOLONG TEA BAGS,ORGANIC OOLONG TEA BAGS
-MINI PRETZELS,mini pretzels,pretzels,shaws,MINI PRETZELS,MINI PRETZELS,MINI PRETZELS
-CD CRAN LM SLTZER,canned cranberry lime seltzer,selter,shaws,CRANBERRY LIME SELTZER,CRANBERRY LIME SELTZER,CRANBERRY LIME SELTZER
-DELI,everything bagels,bagels,publix,"WEIS, CLASSIC BAGELS, ONION",CLASSIC BAGELS,"WEIS, CLASSIC BAGELS"
-PBX SHR MON/JK CHS,publix shredded monteray jack cheese,monteray jack cheese,publix,COLBY AND MONTEREY JACK FINELY SHREDDED CHEESE,COLBY AND MONTEREY JACK FINELY SHREDDED CHEESE,COLBY AND MONTEREY JACK FINELY SHREDDED CHEESE
-LEAN GROUND BEEF,lean ground beef,ground beef,publix,LEAN GROUND BEEF,LEAN GROUND BEEF,LEAN GROUND BEEF
-KFT CUPS 3 CHEESE,kraft macaroni and cheese cups tripple cheese,mac and cheese cups,publix,,,
-MARUCH ORIENT 6PK,maruch ramen noodles oriental flavor 6pk,ramen noodles,publix,RAMEN NOODLES,RAMEN NOODLES,RAMEN NOODLES
-GRANDS! BUTTERMILK,pillsbury grands! southern homestyle buttermilk biscuits,biscuits,publix,BUTTERMILK BISCUITS,BUTTERMILK BISCUITS,BUTTERMILK BISCUITS
-PACE THIK/CHUNK SA,pace thick and chunky salsa,salsa,publix,"PACE, CHUNKY SALSA",CHUNKY SALSA,"PACE, CHUNKY SALSA"
-PUBLIX SOUR CREAM LT,publix sour cream light,sour cream,publix,SOUR CREAM,SOUR CREAM,SOUR CREAM
-SPINACH PUBLIX,spinach publix,spinach,publix,LEAF SPINACH,LEAF SPINACH,LEAF SPINACH
-MCCORMICK TACO MIX,mccormick taco mix,taco mix,publix,CHIPOTLE TACO MIX,CHIPOTLE TACO MIX,CHIPOTLE TACO MIX
-BRC FLRT EAT SMART,broccoli florret eat smart,broccoli florret,publix,BROCCOLI,BROCCOLI,BROCCOLI
-KIKKOMAN SOY SAUCE,kikkoman soy sauce,soy sauce,publix,SOY SAUCE,SOY SAUCE,SOY SAUCE
-GRAPES WHT SDLS,grapes white seedless,grapes,publix,GREEN GRAPE,GREEN GRAPE,GREEN GRAPE
-SLICE ONION SQUASH,sliced onion and squash package,onion and squash,publix,SQUASH WITH VIDALIA ONIONS,SQUASH WITH VIDALIA ONIONS,SQUASH WITH VIDALIA ONIONS
-STIR FRY MX 4 SRV,stir fry mix 4 serving,stir fry mix,publix,ASIAN STYLE STIR FRY BLEND,ASIAN STYLE STIR FRY BLEND,ASIAN STYLE STIR FRY BLEND
-NV PROTEIN BARS,nature valley protein bars,protein bars,publix,Nature Valley Sweet & Salty Roasted Mixed Nut Granola Bar,Nature Valley Sweet & Salty Roasted Mixed Nut Granola Bar,Nature Valley Sweet & Salty Roasted Mixed Nut Granola Bar
-BELL PEPPERS RED,bell peppers red,bell peppers,publix,FIRE ROASTED RED BELL PEPPERS,FIRE ROASTED RED BELL PEPPERS,FIRE ROASTED RED BELL PEPPERS
-PEAS SNOW MICRO,peas snow microwave,peas snow,publix,"PUBLIX, SNOW PEAS",SNOW PEAS,"PUBLIX, SNOW PEAS"
-KIND NUTRITI FB,kind nutrition bar,nutrition bar,target,"KIND HEALTHY GRAINS, CHEWY WITH A CRUNCH GRANOLA BAR, DARK CHOCOLATE CHUNK",CHEWY WITH A CRUNCH GRANOLA BAR,"KIND HEALTHY GRAINS, CHEWY WITH A CRUNCH GRANOLA BAR"
-NATR VAL BAR FB,nature valley protein bars,protein bars,target,Nature Valley Sweet & Salty Roasted Mixed Nut Granola Bar,Nature Valley Sweet & Salty Roasted Mixed Nut Granola Bar,Nature Valley Sweet & Salty Roasted Mixed Nut Granola Bar
-ORG ZUCCHINI,organic zucchini,zucchini,publix,ORGANIC ZUCCHINI SQUASH,ORGANIC ZUCCHINI SQUASH,ORGANIC ZUCCHINI SQUASH
-BROCCOLETTI,broccoli florret,broccoli,publix,BROCCOLI,BROCCOLI,BROCCOLI
-PEPPERS GREEN BELL,peppers green bell,peppers bell,publix,DICED GREEN BELL PEPPERS,DICED GREEN BELL PEPPERS,DICED GREEN BELL PEPPERS
-GRAPES RED SDLS,graoes red seedless,grapes,publix,RED GRAPES,RED GRAPES,RED GRAPES
-ONIONS YELLOW,onions yellow,onions,publix,YELLOW ONIONS,YELLOW ONIONS,YELLOW ONIONS
-BEEF FOR STIR FRY,beef for stir fry,beef strips,publix,ASIAN INSPIRED BEEF STRIPS,ASIAN INSPIRED BEEF STRIPS,ASIAN INSPIRED BEEF STRIPS
-GW EVRTHNG BGLS 4C,everything bagels 4 count,everything bagels,publix,EVERYTHING BAGELS,EVERYTHING BAGELS,EVERYTHING BAGELS
-PBX SHRD MILD CHD,publix shredded  mild cheddar cheese,shredded cheese,publix,SHREDDED MILD CHEDDAR CHEESE,SHREDDED MILD CHEDDAR CHEESE,SHREDDED MILD CHEDDAR CHEESE
-FRNKS BUFF WNG SAU,buffalo wing sauce,buffalo wing sauce,publix,BUFFALO WING SAUCE,BUFFALO WING SAUCE,BUFFALO WING SAUCE
-PUB RANCH DRESS,publix ranch dressing,ranch dressing,publix,"HIDDEN VALLEY, RANCH DRESSING",RANCH DRESSING,"HIDDEN VALLEY, RANCH DRESSING"
-BNLS CHICK BREST,chicken breast,chicken brest,publix,RAW STUFFED CHICKEN BREASTS,RAW STUFFED CHICKEN BREASTS,RAW STUFFED CHICKEN BREASTS
-SEA SCALLOPS,sea scallops,sea scallops,publix,SEA SCALLOPS,SEA SCALLOPS,SEA SCALLOPS
-PHIL CREAM CHEESE,philadelphia cream cheese,cream cheese,publix,PHILADELPHIA CREAM CHEESE-SOFT LIGHT,PHILADELPHIA CREAM CHEESE-SOFT LIGHT,PHILADELPHIA CREAM CHEESE-SOFT LIGHT
-SANTTITAS YEL CORN,santtitas yellow corn,yellow corn,publix,,,
-NESTLE MORSELS,nestle morsels chocolate chips,chocolate chips,publix,"NESTLE, GRAND ASSORTED CHOCOLATE",GRAND ASSORTED CHOCOLATE,"NESTLE, GRAND ASSORTED CHOCOLATE"
-PUBLIX CREAM CHEES,publix cream cheese,cream cheese,publix,PHILADELPHIA CREAM CHEESE-SOFT LIGHT,PHILADELPHIA CREAM CHEESE-SOFT LIGHT,PHILADELPHIA CREAM CHEESE-SOFT LIGHT
+receipt_name,full_product_title,general_product_title,store,product_database
+ORGANIC GALA APPLE , Organic gala apples , Apples , Publix ,Organic gala apples
+ACT STRWBY/BLUEBRY , Activia Probiotic Yogurt , Yogurt , Publix , DANNON ACTIVIA FIBER PROBIOTIC LOWFAT YOGURT STRAWBERRY
+OREO THINS PISTACH , Oreo Thins Pistachio , Oreos , Publix , OREO THINS COOKIES PISTACHIO 1X10.1 OZ
+OG GW BABY SPINACH , Organic baby spinach , Spinach , Publix , ORGANIC BABY SPINACH
+PAPAYA MARADOL , Papaya , Papaya , Publix , PAPAYA CHUNKS
+ORGANIC APPLES FUJ , Organic fuji apples , Apples , Publix , ORGANIC FUJI APPLES
+SABRA RST GARL HUM , Sabra Garlic Hummus , Hummus , Publix , SABRA CLASSIC HUMMUS
+CARROTS BABY CUT , Baby cut carrots , Carrots , Publix , BABY CUT CARROTS
+MOCHI ICE CREAM , Mochi ice cream , Ice cream , Publix , MOCHI ICE CREAM
+HTGF CHK BRST , Heritage Farm Chicken Breast , Chicken breast , Kroger , CHICKEN BREAST
+GREEN BEANS , Green beans , Green beans , Kroger , GREEN BEANS
+KRO KALE , Kroger Kale , Kale , Kroger , KALE
+PEPPERS RAINBOW , Rainbow peppers , Peppers , Kroger , RAINBOW BELL PEPPERS
+YAMS SWT JEWEL , Sweet jewel yams , Yams , Kroger ,YAMS
+HTGF POTATOES RSST , Heritage Farm Russet Potatoes , Potatoes , Kroger , RUSSET POTATOES
+KROGER BRC&CAU , Kroger broccoli and cauliflower , Broccoli and cauliflower , Kroger , BROCCOLI AND CAULIFLOWER
+KROGER FROZEN VEG , Kroger frozen vegetable , Frozen vegetables , Kroger , FRESH FROZEN VEGETABLES
+CLEMNTNES 3# , Clementines 3 pounds , Clementines , Kroger , CLEMENTINE
+BANANAS , Bananas , Bananas , Kroger , BANANA
+CHOBANI YOGURT , Chobani yogurt , Yogurt , Kroger , GREEK YOGURT
+BC PCH PIE , Bakery peach pie , Pie , Kroger , PEACH PIE
+BC COOKIES , Bakery cookies , Cookies , Kroger , COOKIES
+STRKST TUNA CRTNS , Starkist Tuna Creations , Tuna , Kroger , TUNA CREATIONS
+STARKIST TUNA , Starkist Tuna , Tuna , Kroger , TUNA
+KRO OLIVE OIL , Kroger olive oil , Olive oil , Kroger , OLIVE OIL
+KROGER YEAST , Kroger yeast , yeast , Kroger , KROGER FAST RISE YEAST
+WHITE LILLY FLOUR , White lilly flour , flour , Kroger , FLOUR
+KRO FLOUR , Kroger flour , Flour , Kroger , FLOUR
+KRO SALSA , Kroger salsa , Salsa , Kroger , SALSA
+CUPCAKE 6CT DEC , Cupcake decorating kit , Cupcake decorating kit , Publix , CUPCAKE
+AQUAFINA WATER , Aquafina water , Water , Publix , WATER
+GLAZED DONUT , Glazed donut , Glazed donut , Publix , GLAZED DONUTS
+PUBLIX MILK WH 0.5 , Publix whole milk half gallon , Whole milk half gallon , Publix , WHOLE MILK
+PROG CHICK BROTH , Progresso Chicken Broth , Chicken broth , Publix , CHICKEN BROTH
+MULTIGRAIN CHEERIO , Multigrain Cheerios , Cheerios , Safeway , CHEERIOS CEREAL
+PROGRESSO R&H STK , Progresso Rich & Heart Steak & Homestyle Noodles , Canned soup , Safeway ,PROGRESSO RCH HRTY SOUP STEAK HMSTYL NOODLES
+PEZ DISPENSE , Pez Dispenser , Pez candy , Walmart , CANDY & DISPENSER
+JELLY BEANS , Jelly beans , Jelly beans , Walmart , JELLY BEANS
+ROLD GOLD , Rold Gold Pretzels , Pretzels , Walmart , PRETZEL
+GV CHIPS , Great Value Chips , Chips , Walmart , CHIPS
+ROASTED ALMD , Roasted Almonds , Almonds , Walmart , ROASTED ALMONDS
+MT DEW CD RE , Mountain Dew code red , Soda , Walmart , Mountain Dew Code Red Soda 12 Fluid Ounce Aluminum Can
+ACTII BUTTER , ACT II Butter popcorn , Popcorn , Walmart , POPCORN
+CHEESE NIPS , Cheese Nips , Cheese Nips , Walmart , CHEESE NIPS SNACKS CRACKER
+AW CREAM SDA, A&W Cream Soda , Cream Soda , Walmart , CREAM SODA
+CNM ALMOND , Cinnamon almonds , Cinnamon almonds , Walmart , CINNAMON ALMONDS
+RNCH CRACKER , Ranch crackers , Ranch crackers , Walmart , CRACKERS
+ROOT BEER , Root beer , Root beer , Walmart , ROOT BEER
+DR PEPPER , Dr Pepper , Dr Pepper , Walmart , DR PEPPER
+DORITO 12 CT , Doritos , Doritos , Walmart ,
+REESES PEAN , Reeses Peanut Butter Cups , Peanut Butter Cups , Walmart ,"Candies, REESE'S Peanut Butter Cups"
+GATORADE , Gatorade , Gatorade , Walmart ,
+GARDETTOS , Gardetts Original Recipe Snack Mix , Snack mix , Walmart , SNACK MIX
+ASPARAGUS , Asparagus , Asparagus , Walmart , ASPARAGUS
+PASTA , Pasta , Pasta , Walmart , PASTA
+HONEY GLD POTATOES , Potato Inspirations Honey Gold Potatoes , Honey Gold Potatoes , Publix , POTATOES
+DE CECCO BOW FARFA , De Cecco Farfalle , Farfalle , Publix , FARFALLE
+FRNDSHP SOUR CREAM , Friendship Sour Cream , Sour Cream , Publix , SOUR CREAM
+ATHENOS TR/CR FETA , Athenos Traditional Crumbled Feta ,Cheese, Publix , FETA CRUMBLED
+HUNTS KETCHUP , Hunts Tomato Ketchup , Tomato Ketchup , Publix , HUNTS Tomato Ketchup
+APPLES CRIPPS PINK , Cripps Pink Apples , Apples , Publix , RAW CRIPPS PINK APPLE JUICE
+SABRA CLAS HUM 6PK , Sabra Classic Hummus 6 Pack , Hummus , Publix , SABRA CLASSIC HUMMUS
+EGG BREAD-CHALLAH , Egg Bread Challah , Challah , Publix , PREMIUM EGG CHALLAH ROLLS
+KELL APPLE JACKS , Kelloggs Apple Jacks , Apple Jacks , Publix , KELLOGGS APPLE JACKS CEREAL WITH APPLE & CINNANON
+POST HONEY BUNCH , Post Honey Bunches of Oats , Honey Bunches of Oats , Publix , HONEY BUNCHES OF OATS CEREAL
+OLD FASHIONED OATS , Old Fashioned Oats , Oats , Aldi , OLD FASHIONED OATS
+RASPBERRIES , Raspberries , Raspberries , Aldi , RASPBERRIES
+BLUEBERRIES , Blueberries , Blueberries , Aldi , BLUEBERRIES
+STRAWBERRIES , Strawberries , Strawberries , Aldi , WHOLE STRAWBERRIES
+AVOCADOS , Avocados , Avocados , Aldi , Avocados raw all commercial varieties
+CHIA SEEDS , Chia seeds , Chia seeds , Aldi , CHIA SEEDS
+DATES , Dates , Dates , Aldi , DATES
+BABY SPINACH 120g , Baby spinach , Baby spinach , Aldi , BABY SPINACH
+TORTILLA WRAPS WHOLEMEAL , Wholemeal tortilla wraps , Wholemeal tortilla wraps , Aldi , WHOLE GRAIN TORTILLA WRAPS
+BEETROOT SLICED 450g , Sliced Beetroot , Beetroot , Aldi , SLICED BEETROOT PICKLED IN SWEET MALT VINEGAR
+FZN MIXED BERRIES 500g , Frozen mixed berries , Frozen mixed berries , Aldi , MIXED BERRIES
+HAM 4x100g , Ham , Ham , Aldi , UNCURED HAM
+FROZ STEAM VEG 450g , Frozen steamed vegetables , Frozen steamed vegetables , Aldi , FRESH FROZEN VEGETABLES
+RICE CRACKERS 200g , Rice crackers , Rice crackers , Aldi , RICE CRACKERS
+PINK LADY APPLES , Pink lady apples , Pink lady apples , Aldi , PINK LADY APPLES
+DIP SALSA , Salsa dip , Salsa , Aldi , SALSA
+MAYONNAISE SQUEEZE , Mayonnaise , Mayonnaise , Aldi , SQUEEZE MAYONNAISE
+WFM CLEMENTINE BAG , Clementines , Clementines , Whole Foods , Clementines raw
+CROFT STRAWBRY SPR , Crofts strawberry spread , Strawberry jam , Whole Foods , STRAWBERRY SPREAD
+BEANS GREEN , Green beans , Green beans , Whole Foods , WHOLE GREEN BEANS
+VIRGL CREAM SODA , Virgils cream soda , Cream soda , Whole Foods , VIRGILS CREAM SODA
+BULK ALMOND BUTTER , Almond butter , Almond butter , Whole Foods , ALMOND BUTTER
+365 LT CHNK TUNA , 365 Light Chunk Tuna , Tuna , Whole Foods , CHUNK LIGHT TUNA
+BLACKBERRIES , Blackberries , Blackberries , Whole Foods , BLACKBERRIES
+CHKN BRST CUTLET , Chicken breast cutlet , Chicken breast , Whole Foods , LIGHTLY BREADED CHICKEN BREAST CUTLETS
+CHKN GRND THIGH , Ground chicken thigh , Ground chicken thigh , Whole Foods , CHICKEN THIGH MEAT
+OREO COOKIE , Oreos , Oreos , Target , OREO CHOCOLATE SANDWICH COOKIES
+CHOBANI , Chobani yogurt , Yogurt , Target ,
+BREYERS , Breyers Ice cream , Ice cream , Target ,
+AQUAF 2PK , Aquafina bottled water , Bottled water , Target ,
+MP EGGS , Marketplace eggs , Eggs , Target ,EGGS
+PUBLIX MED SALSA , Publix Medium Salsa , Medium Salsa , Publix ,MEDIUM SALSA        
+SM RAISIN SEEDLESS , Sun Maid Seedless Raisins , Seedless Raisins , Publix ,SEEDLESS RAISINS
+O R POPCORN , Orville Redenbacher Popcorn , Popcorn , Publix ,POPCORN
+JIF PEANUT BUTTER , Jif Peanut Butter , Peanut Butter , Publix , PEANUT BUTTER
+PUB DRY RST PNUT , Publix Dry Roasted Peanuts , Dry Roasted Peanuts , Publix , DRY ROASTED PEANUTS
+L/L DBL CHOC CHIP , Lenny & Larrys Double Chocolate Chip , Double Chocolate Chip , Publix ,DOUBLE CHOCOLATE CHIP
+L/L PB CHOC CHIP , Lenny & Larrys Peanut Butter Chocolate Chip , Peanut Butter Chocolate Chip , Publix ,PEANUT BUTTER CHOCOLATE CHIP
+B/D WHL NAT ALMDS , Blue Diamond Whole Natural Almonds , Whole Natural Almonds , Publix , BLUE DIAMOND ALMONDS WHOLE NATURAL
+BANANAS , Bananas , Bananas , Publix , BANANAS
+LIMES PERSIAN , Persian Limes , Limes , Publix , PERSIAN LIMES
+NAPPA CABBAGE , Nappa Cabbage , Nappa Cabbage , HMart , NAPA CABBAGE
+PAPAYA , Papaya , Papaya , HMart , Papayas raw
+MATCHA KIT KAT , Matcha Kit Kat , Matcha Kit Kat , HMart , Candies KIT KAT Wafer Bar
+PICKLD SOUR RADISH , Pickled Sour Radish , Pickled Sour Radish , HMart , Radishes hawaiian style pickled
+CA NAVEL ORANGE , California Navel Orange , Navel Orange , HMart , CALIFORNIA NAVEL ORANGES
+QUAK QUICK OATS , Quaker Quick Oats , Quick Oats , Publix , Cereals QUAKER Quick Oats Dry
+PUBLIX HVY WHP CRM , Publix Heavy Whipping Cream , Heavy Whipping Cream , Publix , HEAVY WHIPPING CREAM
+BNLS CHICK BREAST , Boneless Chicken Breast , Boneless Chicken Breast , Publix , BONELESS CHICKEN BREAST
+LAPASTA SQSH RAVLI , La Pasta Squash Ravioli , Squash Ravioli , Publix , BUTTERNUT SQUASH RAVIOLI
+DIGORNO PIZZA , Digorno Pizza , Pizza , Kroger , DIGIORNO Pizza cheese topping rising crust frozen baked
+WESSON OIL , Wesson Oil , Oil , Kroger , WESSON Vegetable Oil
+KING ARTHUR FLOUR , King Arthur Flour , Flour , Kroger , UNBLEACHED ALL-PURPOSE FLOUR
+FLA NATURAL JUICE , Florida Natural Juice , Juice , Kroger , FLORIDAS NATURAL 100% PURE FLORIDA ORANGE JUICE
+KRO VGTBL CKSPRY , Kroger Vegetable Cooking Spray , Vegetable Cooking Spray , Kroger , VEGETABLE OIL COOKING SPRAY
+BARLLA MINI FARFLE , Barilla Mini Farfalle , Mini Farfalle , Kroger , MINI FARFALLE ENRICHED MACARONI PRODUCT
+LANDOLAKES HVY CRM , Land OLakes Heavy Cream , Heavy Cream , Kroger , LAND O LAKES RICH & CREAMY HEAVY WHIPPING CREAM
+POTATOES RUSSET , Russet Potatoes , Potatoes , Kroger , RUSSET POTATOES
+KRO MUSHROOMS , Kroger Mushrooms , Mushrooms , Kroger , MUSHROOMS
+APPLES HONEYCRISP , Honeycrisp Apples , Apples , Kroger , HONEYCRISP APPLES
+PLBRY CRSCNT ROLLS , Pillsbury Crescent Rolls , Crescent Rolls , Kroger , Pillsbury Original Crescent Rounds 8 Count
+NTHN BF FRNK , Nathan Beef Frank , Beef Frank , Kroger , BEEF FRANKS
+FAGE TOTAL YOGURT , Fage Total Yogurt , Yogurt , Kroger , TOTAL GREEK STRAINED YOGURT
+BOK CHOY ORG , Bok Choy Organic , Bok Choy , Kroger , BOK CHOY
+CUCUMBERS , Cucumbers , Cucumbers , Kroger , FRESH CUCUMBERS
+KRO VAN EXTRCT , Kroger Vanilla Extract , Vanilla Extract , Kroger , PURE VANILLA EXTRACT
+BRHD PRV CHS , Boars Head Provolone Cheese , Cheese , Kroger , BOARS HEAD PROVOLONE CHEESE
+POST HB OAT CRL , Post Honey Bunches of Oats Cereal , Cereal , Kroger , HONEY BUNCHES OF OATS
+JIF PEANUT BUTTER , Jif Peanut Butter , Peanut Butter , Kroger , PEANUT BUTTER
+ODWL JUICE , Odwalla Juice , Juice , Kroger , ODWALLA 100% JUICE
+PREGO PASTA SAUCE , Prego Pasta Sauce , Pasta Sauce , Kroger , PASTA SAUCE
+TFYN PITA BR , Toufayan Pita Bread , Pita Bread , Kroger , CLASSIC WHITE PITA BREAD
+LA BNDTA TORTILLA , La Banderita Tortilla , Tortilla , Kroger ,TORTILLA
+BRHD HNY HAM , Boars Head Honey Ham ,  Honey Ham , Kroger , HONEY HAM
+SALMON ATL FLT , Atlantic Salmon Fillet , Salmon , Kroger , SALMON
+ZUCCHINI , Zucchini , Zucchini , Kroger , ZUCCHINI
+TOMATOES RED OTV , Red Tomatoes On The Vine , Tomatoes , Kroger , TOMATOES ON THE VINE
+KROGER MILK , Kroger Milk , Milk , Kroger , MILK
+RONZ LINGUINE , Ronzoni Linguine , Linguine , Kroger , LINGUINE
+BROCCOLI CROWNS , Broccoli Crowns , Broccoli Crowns , Kroger , BROCCOLI
+APL GALA , Gala Apple , Apple , Kroger , GALA APPLES
+DKB BAGELS CIN/RSN	 , Daves Killer Bagels Cinnamon/Raisin , Bagels , Publix , RAISIN CINNAMON BAGELS
+CHOBANI 0% 4 PACK , Chobani 0% fat , Yogurt , Publix ,
+CHOBANI 2% 4 PACK , Chobani 2% fat , Yogurt , Publix ,
+ORG APPLES HONEYCR , Organic honeycrisp apples , Apples , Publix , HONEYCRISP APPLES
+NASOYA CUBED TFU , Nasoya cubed tofu , tofu , Publix , TOFU
+MAYFIELD SELECTS , Mayfield Selects , Ice cream , Publix , ICE CREAM
+GOOD THN SWT POTAT , Good thin sweet potato , sweet potato , Publix ,
+KBLR FUDGE STRIPES , Keebler Fudge Stripes , Cookies , Publix , FUDGE STRIPES COOKIES
+PUBLIX EGGS JUMBO , Publix jumbo eggs , Eggs , Publix , EGGS
+OG GW BABY SPINACH , Organic baby spinach , Spinach , Publix , BABY SPINACH
+CHO PLAIN 5% 32OZ , Chobani plain 5% 32 oz yogurt , Yogurt , Publix , GREEK YOGURT
+PRINGLES , Pringles , Pringles , Target , PRINGLES
+SLIM JIM , Slim jim , Slim jim , Target , SLIM JIM Original Smoked Snack Sticks
+PLSBRY COOKI , Pillsbury Cookie , Cookie , Target , Pillsbury Chocolate Chip Cookie Dough
+YOCRUNCH , Yocrunch , Yogurt , Target , YOCRUNCH LOWFAT YOGURT VANILLA
+V8 , V8 , V8 , Target , V8 BEVERAGE VEGETABLE
+BANANA , Banana , Banana , Target , BANANA
+MP 2 PC MILK , Market pantry 2% milk , Milk , Target , MILK
+CHEETOS , Cheetos , Cheetos , Target ,
+LAYS , Lays , Lays , Target ,
+MARUCHN SOUP , Maruchan soup , Soup , Target , RAMEN NOODLES
+CRKLN OATBRN , Cracklin Oat Bran , Cereal , Target ,
+LEAN CUISINE , Lean cuisine , Lean cuisine , Target , LEAN CUISINE CLASSIC MACARONI & BEEF
+COKE CLASSIC , Coke Classic , Coke , Target ,
+FRITOS , Fritos , Fritos , Target ,
+BROCCO CAUL , Broccoli Cauliflower , Broccoli , Target , BROCCOLI
+KRO MUSHROOMS , Kroger Mushrooms , Mushrooms , Kroger , MUSHROOMS
+STO BABY SPINACH , Simple Truth Organic Baby Spinach , Organic Baby Spinach , Kroger , BABY SPINACH
+CLEMNTNES , Clementines , Clementines , Kroger , CLEMENTINE
+CUCUMBERS , Cucumbers , Cucumbers , Kroger , FRESH CUCUMBERS
+BROCCOLI , Broccoli , Broccoli , Kroger , BROCCOLI
+PREGO PASTA SAUCE , Prego Pasta Sauce , Pasta Sauce , Kroger , PASTA SAUCE
+TURKEY HLL ICE CRM , Turkey Hill Ice Cream , Ice Cream , Kroger , ICE CREAM
+AIDL SAUSAGE , Aidell Sausage , Sausage , Kroger ,SAUSAGE
+KROGER EGGS , Kroger Eggs , Eggs , Kroger , EGGS 
+PLANTAINS , Plantains , Plantains , Kroger ,"Plantains, yellow, raw"
+APPLES HONEYCRISP , Honeycrisp Apples , Apples , Kroger , HONEYCRISP APPLES 
+BH MAPLE HONEY HAM , Boars Head Maple Honey Ham , Honey Ham , Publix , MAPLE HONEY HAM
+GW EVRTHNG BGLS 4C , GreenWise Everything Bagels 4C , Everything Bagels , Publix , EVERYTHING BAGELS BAGELS
+TROPICANA OJ , Tropicana OJ , OJ , Kroger , PURE 100% FLORIDA ORANGE JUICE
+PFRM GOLDFISH , Pepperidge Farm Goldfish , Goldfish , Kroger ,"Pepperidge Farm, Goldfish, Baked Snack Crackers, Original"
+NTLA HZLNT SPREAD , Nutella Hazelnut Spread , Nutella , Kroger , HAZELNUT SPREAD
+CABBAGE NAPPA , Nappa Cabbage , Nappa Cabbage , Kroger , NAPPA CABBAGE
+BARLLA LINGUINE , Barilla Linguine , Linguine , Kroger , LINGUINE ENRICHED MACARONI PRODUCT
+BELG MOZ BLS , BelGioioso Mozzarella Balls , Mozzarella Balls , Kroger  , FRESH MOZZARELLA 
+PEPPERS BELL RED , Red Bell Peppers , Red Bell Peppers , Kroger ,"Peppers, sweet, red, raw"
+PEACHES WHITE , White Peaches , White Peaches , Kroger,PEACHES
+POST HNY BNCH OAT , Post Honey Bunches of Oats , Honey Bunches of Oats , Kroger , HONEY BUNCHES OF OATS CEREAL
+BLUEBERRIES , Blueberries , Blueberries , Kroger,"Blueberries, raw"
+PHLLY CREAM CHEESE , Philadelphia Cream Cheese , Cream Cheese , Kroger , PHILADELPHIA CREAM CHEESE-SOFT PLAIN
+PRDU CH THGH , Purdue Chicken Thigh , Chicken Thigh , Kroger , PERDUE CHICKEN THIGHS
+STNFR GARLIC NAAN , Stonefire Garlic Naan , Garlic Naan , Kroger , GARLIC NAAN
+KRO PNAPL CHNK JCE , Kroger Pineapple Chunk Juice , Pineapple Chunk Juice , Kroger , PINEAPPLE CHUNKS
+MSSN TORTLLA , Mission Tortilla , Tortilla , Kroger , TORTILLA 
+PILLSBURY CRESCENT , Pillsbury Crescent , Crescent , Kroger , CRESCENT
+O M FRANKS , Oscar Mayer Franks , Franks , Kroger , FRANKS
+LEMONS , Lemons , Lemons , Kroger,LEMON
+QUAKER OATMEAL , Quaker Oatmeal , Oatmeal , Kroger,"Cereals, QUAKER, Instant Oatmeal Organic, Regular"
+MANDARINS BAG , Mandarins Bag , Mandarins , Kroger,MANDARINS
+PRSL COOKIE , Private Selection Cookie , Cookie , Kroger,COOKIE
+PRSL 12 GRAIN BRD,Private Selection 12 Grain Bread,12 Grain Bread,Kroger,12 GRAIN BREAD
+QUAKER OATMEAL , Quaker Oatmeal , Oatmeal , Kroger,"QUAKER, INSTANT OATMEAL"
+KRO BUFFALO , Kroger Buffalo , Buffalo , Kroger,
+KRO TUNA PCH , Kroger Tuna Pouch, Tuna , Kroger,
+KRO LMN PEPPR , Kroger lemon pepper , Lemon pepper , Kroger,"KROGER, LEMON PEPPER"
+KRO TUNA , Kroger Tuna , Tuna , Kroger,TUNA
+KRO VITAMIN D MILK , Kroger Vitamin D Milk , Milk , Kroger , VITAMIN D MILK
+KRO POTATO , Kroger Potato , Potato , Kroger,POTATOES
+ONIONS SWT YELLOW , Onions sweet yellow , Onions , Kroger,YELLOW ONIONS
+APL GALA EAST XF , Apples Gala East , Apples , Kroger ,GALA APPLES 
+CABBAGE , Cabbage , Cabbage , Kroger ,
+KRO CAULIFLOWER FLPC , Kroger Cauliflower , Cauliflower , Kroger,CAULIFLOWER
+KRO MUSHROOMS , Kroger mushrooms , Mushrooms , Kroger,"KROGER, MUSHROOMS PIECES & STEMS"
+KRO HONEY BEAR , Kroger honey bear , Honey , Kroger,Honey
+KRO TOMATOES , Kroger tomatoes , Tomatoes , Kroger,"Tomatoes, red, ripe, canned, packed in tomato juice"
+KRO SALSA , Kroger salsa , Salsa , Kroger,SALSA
+PRINGLES , Pringles , Chips , Target,PRINGLES
+CAMPBELLS CH , Campbells Cream of Chicken , Soup , Target,
+CAMPBELLS , Campbells , Soup , Target ,
+MARUCHN SOUP , Maruchan soup , Ramen , Target,"Soup, ramen noodle, any flavor, dry"
+MP 2 PC MILK , Market pantry 2 percent milk , Milk , Target ,MILK
+YOCRUNCH , Yocrunch , Yogurt , Target , YOCRUNCH 
+CAPRI SUN , Capri Sun , Juice , Target,
+PEARLS , Olives , Olives , Target , PEARLS 
+MP PASTA SCE , Market pantry pasta sauce , Pasta sauce , Target , PASTA SAUCE
+LEAN CUISINE , Lean cuisine , Lean cuisine  , Target , LEAN CUISINE
+DEVOUR , Devour , Devour , Target,
+NEWYOR BREAD , Newyork bread , Garlic bread , Target,"Garlic bread, frozen"
+FAIRLIFE , Fairlife , Ice cream , Target,
+OS CRAN POM , Ocean Spray Cranberry Pomegranate Juice , Juice , Walmart,"Pomegranate juice, bottled"
+CAMPARI TOM , Campari tomatoes , Tomatoes , Walmart,TOMATOES
+KFT SINGLES , Kraft Singles , Cheese , Walmart,
+HARD SALAMI , Hard salami , Salami , Walmart,HARD SALAMI
+APL GOLD DEL , Golden delicious apples , Apple , Kroger ,GOLDEN DELICIOUS APPLES 
+BREAD , Bread , Bread , Walmart ,BREAD
+CIDER , Cider , Cider , Walmart ,CIDER
+ORGANIC RND YELLOW TORT CHIPS , Organic round yellow tortilla chips , Tortilla chips , Trader Joes ,ORGANIC TORTILLA CHIPS 
+ORGANIC SUGAR , Organic sugar , Sugar , Trader Joes,SUGAR
+BEANS ORGANIC GARBANZO , Organic garbanzo beans , Garbanzo beans , Trader Joes ,ORGANIC GARBANZO BEANS 
+CHOC CHUNKS SEMI SWEET 10 OZ , Semi sweet chocolate chunks , Chocolate , Trader Joes,CHOCOLATE CHUNK
+SPAGHETTI TOMATO SAUCE ORGANIC , Organic spaghetti tomato sauce , Tomato sauce , Trader Joes,TOMATO SAUCE
+A-POTATO EACH RUSSET , Russet potato , Potato , Trader Joes,POTATOES
+R-CARROTS WHOLE ORG , Organic carrots , Carrot , Trader Joes,CARROTS
+A-AVOCADOS EACH HASS 40 CT , Hass avocados , Avocados , Trader Joes,AVOCADO
+A-CUCUMBERS PERSIAN 14 OZ , Persian cucumbers , Cucumbers , Trader Joes,PERSIAN CUCUMBER
+TRADITIONAL REFRIED BEANS , Refried beans , Beans , Trader Joes,REFRIED BEANS
+GV 5LB BRST , Great Value Chicken Breast , Chicken breast , Walmart,
+GV 2 RF MLK , Great Value 2% reduced fat milk , Milk , Walmart,2% REDUCED FAT MILK
+PANCAKE MIX , Pancake mix , Pancake mix , Walmart ,PANCAKE MIX
+HNY MPL BCN , Honey maple bacon , Bacon , Walmart ,BACON
+SAUS LINKS , Sausage links , Sausage , Walmart ,SAUSAGE LINKS 
+GARLIC SALT , Garlic salt , Garlic salt , Walmart ,GARLIC SALT 
+JALAPENO , Jalapeno , Jalapeno , Walmart,JALAPENO
+GV CHED SHED , Great Value shredded cheddar , Cheese , Walmart,CHEDDAR
+GV BRWN RICE , Great Value brown rice , Brown rice , Walmart,BROWN RICE
+BELL PEPPER , Bell pepper , Bell pepper , Walmart,BELL PEPPER STRIPS
+RED PEPPER , Red pepper , Red pepper , Walmart,RED PEPPER
+ORANGE PEPPER , Orange pepper , Orange pepper , Walmart,ORANGE PEPPER
+EGGS , Eggs , Eggs , Walmart,EGGS
+CILANTRO , Cilantro , Ciltrano , Walmart,CILANTRO
+1PCT MILK , 1% milk , Milk , Kroger,MILK
+KROGER MILK , Kroger milk , Milk , Kroger , MILK 
+KROGER JUICE , Kroger juice , Orange Juice , Kroger,JUICE
+GM CINN TST CRUNCH , General Mills Cinnamon Toast Crunch , Cereal , Kroger , GENERAL MILLS CEREAL CINNAMON TOAST CRUNCH
+KRO JAM , Kroger Jam , Jam , Kroger,JAM
+BANANAS , Bananas , Bananas , Kroger,BANANAS
+STO POWER GREENS , Simple Truth Organic power greens , Spinach , Kroger , POWER GREENS
+STO RED DEL POUCH , Simple Truth Organic red delicious apples , Apples , Kroger,RED DELICIOUS APPLES
+CARROTS , Carrots , Carrots , Kroger,CARROTS
+KRO COF MOOSE TRK , Kroger coffee moose tracks greek yogurt , Yogurt , Kroger,GREEK YOGURT
+LINDT CHOCOLATE , Lindt Chocolate , Chocolate , Kroger,"LINDT, MILK CHOCOLATE"
+GREEN PEPPERS , Green peppers , Green bell peppers , Kroger,GREEN PEPPER
+LIMES , Limes , Limes , Kroger,PERSIAN LIMES
+AVOCADO HASS , Avocado Hass , Avocados , Kroger,AVOCADO
+ONION YLW COLOSS , Yellow onion , Onions , Kroger,YELLOW ONION
+POTATO RUSSET , Russet Potato , Potatoes , Kroger,RUSSET POTATO
+LEMONS , Lemons , Lemons , Kroger,LEMONS
+KRO BREAD , Kroger Bread , Bread , Kroger,BREAD
+GTS KOMBCHA , GTs Kombucha , Kombucha , Kroger,"GT'S, ORGANIC RAW KOMBUCHA, CITRUS"
+CHETO HOT PUFFS , Cheetos Hot Puffs , Chips , Publix,Cheetos Hot 9.5z
+CHETO PUFFS CHEESE , Cheetos cheese puffs , Chips , Publix, Cheetos Puffs Cheese Flavored Snacks 2.375 Ounce Plastic Bag
+LAYS PARTY SIZE , Lays Party Size , Chips , Publix, Lays Baked Potato Crisps 10.25 ounce Plastic Bag
+LACROIX BERRY WTR , Lacroix Berry Water , Soda , Publix,"LACROIX, CURATE NATURALLY ESSENCED SPARKLING WATER, PINK GRAPEFRUIT"
+LACROIX ORANGE , Lacroix Orange , Soda ,Publix,"LACROIX, CURATE NATURALLY ESSENCED SPARKLING WATER, PINK GRAPEFRUIT"
+COCA-COLA CLASSIC , Coca-Cola Classic , Soda , Publix, Coca-Cola Bottle 20 fl oz
+COCA-COLA ZERO , Coca-Cola Zero , Soda , Publix,"Coca-Cola Zero Sugar Bottle, 8.5 fl oz"
+SPRITE , Sprite , Soda , Publix,"Sprite Bottle, 20 fl oz"
+CHERRY COKE , Cherry Coke , Soda , Publix,"Coca-Cola Cherry Bottles, 16.9 fl oz, 6 Pack"
+C SHLBY CHLI , Carroll Shelbys Chili Kit , Spices , Kroger,"CARROLL SHELBY'S, ORIGINAL TEXAS BRAND, CHILI SEASONING KIT"
+RED BARRON PIZZA , Red Barron pizza , Pizza , Kroger,"RED BARRON, PIZZA, SAUSAGE, SUPREME"
+CHICKN BROTH , Chicken broth , Chicken broth , Walmart,CHICKEN BROTH
+PORT WINE ,  ,, Walmart,
+GV BBQ , Great Value barbeque sauce , Barbeque sauce , Walmart,BARBEQUE SAUCE
+KETCHUP , Ketchup , Ketchup , Walmart,KETCHUP
+GV ORANG JCE , Great Value orange juice , Orange Juice , Walmart,ORANGE JUICE
+3 ORANGES , 3 lb oranges , Oranges , Walmart,ORANGES
+SHALLOTS , Shallots , Shallots , Walmart,SHALLOTS
+GREEN ONION , Green onion , Green onion , Walmart,GREEN ONIONS
+GINGER ROOT , Ginger root , Ginger , Walmart,GINGER
+CARROTS SNACK SIZE , Snack size carrots , Carrots , Publix,CARROTS
+TOTINOS PIZZA , Totinos pizza rolls , Pizza rolls , Publix,Totino's Pepperoni Pizza Rolls 160ct
+APPLES MCINTOSH LG , Large McIntosh apples , Apples , Publix,MCINTOSH APPLES
+PEARS BARTLETT , Bartlett pears , Pears , Publix,PEARS
+CHWY PPRMNT MENTOS , Chewy peppermint mentos , Mints , Publix,"MENTOS, NOWMINTS SUGARFREE MINTS, PEPPERMINT"
+OJ TROP PURE , Tropicana pure orange juice , Orange juice , Publix,ORANGE JUICE
+PUBLIX MILK , Publix milk , Milk , Publix,MILK
+KIT KAT , Kit kat , Candy , Publix,
+ALMOND JOY SNACK , Almond joy snack , Candy , Publix,ALMOND
+SUNKIST ORANGE , Sunkist orange , Oranges , Publix,ORANGE
+TGIF POPCORN CKN , TGIF popcorn chicken , Popcorn chicken , Publix,POPCORN CHICKEN
+DELIZZA ECLAIRS , Delizza eclairs , Eclairs , Publix,ECLAIRS
+UNBLEACHED BRD FLR , Unbleached bread flour , Bread flour , Publix,UNBLEACHED BREAD FLOUR
+CANTALOUPES , Cantaloupes , Cantaloupes , Publix,CANTALOUPE
+MOTTS APP WHT GRP , Motts apple white grape juice , Juice , Publix,WHITE GRAPE JUICE
+PBLX ITAL BRD CRMB , Publix Italian bread crumbs , Bread crumbs , Publix,BREAD CRUMBS
+KENS BALS/BASIL , Kens balsamic/basil dressing , Salad dressing , Publix,BASIL
+KENS RANCH , Kens ranch , Ranch , Publix,"KEN'S STEAK HOUSE, DRESSING, RANCH"
+PETER PAN PNUT/BTR , Peter Pan peanut butter , Peanut butter , Publix,PETER PAN CREAMY PEANUT BUTTER
+MAXWELL HOUSE COFF , Maxwell House coffee , Coffee , Publix,COFFEE
+PUBLIX MARINARA SA , Publix marinara sauce , Marinara sauce , Publix,"PUBLIX, PREMIUM MARINARA PASTA SAUCE"
+EUREKA WHEAT BRD , Eureka wheat bread , Bread , Publix,WHITE BREAD
+KRO 1% LF MILK , Kroger 1% lowfat milk , Milk , Kroger,MILK
+KROGER KTL CHPS , Kroger kettle chips , Chips , Kroger,"KROGER, KETTLE COOKED POTATO CHIPS"
+KRO BREAD , Kroger bread , bread , Kroger,BREAD
+MCCORMCK CHLI MX , McCormick Chili Mix , Spices , Kroger,"MCCORMICK, CHILI SEASONING MIX"
+ROMAINE HEARTS , Romaine hearts , Romaine , Kroger,ROMAINE HEARTS
+KRO GRND TRKY , Kroger ground turkey , Ground turkey , Kroger,GROUND TURKEY
+CKN BRST BL SL , Chicken breast boneless skinless , Chicken breast , Kroger,CHICKEN BREAST
+KROGER MUSTARD , Kroger mustard , Mustard , Kroger,MUSTARD
+KRO PASTA SAUCE , Kroger pasta sauce , Pasta sauce , Kroger,PASTA SAUCE
+KROGER BEANS , Kroger beans , Beans , Kroger,BEANS
+APL CRIPPS PINK , Cripps pink apple , Apples , Kroger,RAW CRIPPS PINK APPLE JUICE
+KROGER FRZN VEG , Kroger frozen vegetables , Frozen vegetables , Kroger,FRESH FROZEN VEGETABLES
+KRO GRK VAN YOGURT , Kroger greek vanilla yogurt , Yogurt , Kroger,NONFAT GREEK VANILLA YOGURT
+PRSL PIZZA , Private selections pizza , Pizza , Kroger,PIZZA
+STO BABY ARUGULA , Simple Truth Organic baby arugula, Baby arugula , Kroger,"SIMPLE TRUTH ORGANIC, BABY ARUGULA"
+NBSC BLVTA , Nabisco belVita , Breakfast biscuit , Kroger,NABISCO BELVITA BISCUIT 1X
+MCCAFE COFFEE , McCafe coffee , Coffee , Kroger,COFFEE
+KRO HONEY BEAR , Kroger honey bear , Honey , Kroger,HONEY
+KROGER OATS , Kroger oats, Oats , Kroger,OATS
+HALOTOP ICE CREAM , Halo Top ice cream , Ice cream , Kroger,ICE CREAM
+KRO PEANUT BUTTER , Kroger peanut butter , Peanut butter , Kroger,PEANUT BUTTER
+MRES DRSNG , Maries dressing , Salad dressing , Kroger,"MARIE'S, LITE CREAMY RANCH DRESSING & DIP"
+CASCADIAN GRANOLA , Cascadian Farms granola , Granola , Kroger,GRANOLA
+ST COOKIES , Simple Truth Cookies , Cookies , Kroger,COOKIES
+CA PZ KTCH PIZZA , California Pizza Kitchen pizza , Pizza , Kroger,"CALIFORNIA PIZZA KITCHEN, WHITE CRISPY THIN CRUST PIZZA"
+STO BLUE TORTILLA , Simple Truth Organic blue tortilla chips , Tortilla chips , Kroger,BLUE TORTILLA CHIPS
+KROGER EGGS , Kroger eggs , Eggs , Kroger,EGGS
+STO WHITE TORTILLA , Simple truth organic white tortilla chips , Tortilla chips , Kroger,ORGANIC WHITE TORTILLA CHIPS
+KRO DRIED CRANBERR , Kroger dried cranberries , Cranberries , Kroger,DRIED CRANBERRIES
+APPLES HONEYCRISP , Honeycrisp apples , Apples , Kroger,HONEYCRISP APPLES
+STO ORG TOFU,Simple Truth Organic Tofu,tofu,Kroger,ORGANIC SOFT TOFU
+STO FRZ CHERRIES,Simple Truth Organic Frozen Cherries,frozen cherries,Kroger,MARASCHINO CHERRIES
+KRO PICKLES,Kroger Pickles,pickles,Kroger,PICKLES
+KRO STHWEST KIT,Kroger SouthWest Salad Kit,salad kit,Kroger,PREMIUM SOUTHWEST SALAD KIT
+KRO SHRED CHEESE,Kroger Shredded Cheese,shredded cheese,Kroger,SHREDDED CHEESE
+AVOCADO HASS,Avocado Hass,avocado,Kroger,HASS AVOCADOS
+GARLIC X-JUMBO,clove of garlic,clove garlic,Kroger,WHOLE CLOVE GARLIC
+GRAPEFRUIT RED ESTPC,grapefruit red,grapefruit,Kroger,RED GRAPEFRUIT
+VGND SWT POT SPR PC,Veggie Noodle Sweet Potato Spirals,veggie noodle sweet potato spirals,Kroger,SWEET POTATO SPIRALS
+CELERY,celery,celery,Kroger,CELERY
+MC CILANTRO LEAVES,cilantro leaves,cilantro,Publix,"TERANA, CHOPPED CILANTRO LEAVES"
+TOMATO ON THE VINE,tomato on the vine,tomato,Publix,TOMATOES ON THE VINE
+AVOCADOS HASS,avocado Hass,avocado,Publix,HASS AVOCADOS
+CHERRIES,cherries,cherries,Publix,MARASCHINO CHERRIES
+PEACHES PREMIUM,peaches premium,peaches,Publix,PEACHES
+ONION SPANISH,onion spanish,onion,Publix,ONION
+MCCORMICK OREGANO,mccormick oregano,oregano,Publix,OREGANO
+MANDARINS,mandarins,mandarins,Publix,MANDARINS
+BANANAS,bananas,bananas,Publix,BANANAS
+CHICKEN TENDERS,chicken tenders,chicken tenders,Publix,CHICKEN TENDERS
+TERRAPIN IPA,terrapin IPA,terrapin IPA,Publix,
+GARDEN LIFE ROMAIN,Garden Life Romain lettuce,lettuce,Publix,"KROGER, FRESH SELECTIONS, AMERICAN BLEND; ROMAIN LETTUCE, ICEBERG LETTUCE, RED CABBAGE, CARROTS & RADISH"
+CUCUMBERS,cucumbers,cucumbers,Publix,fresh cucumbers
+PBX ART SPIN DIP,publix artichoke spinach dip,artichoke spinach dip,Publix,ARTICHOKE SPINACH DIP
+3PC CHICK TEN DIN,3 piece chicken tender dinner,chicken tenders,Publix,CHICKEN TENDERS
+CAPE COD WAVES SLT,cape cod waves salted potato chips,potato chips,Publix,POTATO CHIPS
+BARCEL TAKIS FUEGO,Barcel Takis Fuego,chips,Publix,"BARCEL, TAKIS, TORTILLA CHIPS, HOT"
+PUBLIX FROZEN FRUI,publix frozen fruit,frozen fruit,Publix,FROZEN FRUIT BLEND
+DAISY COTT CHS 2%,Daisy cottage cheese 2%,cottage cheese,Publix,COTTAGE CHEESE
+PEP FARM GOLDFISH,Pepridge Farm Goldfish,goldfish,Shaws,
+SIG POPCORN WHITE,Signature White Popcorn,pocorn,Shaws,WHITE POPCORN
+SIG GREEN BEANS WH,Signature Whole Green Beans Canned,canned green beans,Shaws,WHOLE GREEN BEANS
+COLLEGE INN BOLD,College Inn Beef Broth,beef broth,Shaws,BEEF BROTH
+QUAKER CEREAL LIFE,quaker life cereal,cereal,Shaws,Quaker Life Cinnamon Cereal 18 Ounce Paper Box
+OCEAN SPRAY JUICE,Ocean Spray Juice,juice,Shaws,
+MARTINELLI CIDAR S,Martinelli Cidar,cidar,Shaws,"MARTINELLI'S GOLD MEDAL, SPARKLING CIDER"
+WELCHS SPARKLING,Welchs Sparkling Grape Juice,sparkling grape juice,Shaws,SPARKLING GRAPE JUICE
+NBC OREO CKY REG,Nabisco Oreo Cookie regular,oreos,Shaws,NABISCO OREO COOKIES OREO 1X10.700 OZ
+COCA COLA CLASSIC,coca cola classic,coke,Shaws,CLASSIC COLA
+PILLS BREAD FLOUR,Pillsbury Bread Flour,flour,Shaws,BREAD FLOUR
+GATORADE CHERRY,cherry gatorade,gatorade,Shaws,Gatorade Frost Glacier Cherry Thirst Quencher 32 Fluid Ounce Bottle
+GATORADE GLACIER,gatorade glacier,gatorade,Shaws,Gatorade Frost Glacier Cherry Thirst Quencher 32 Fluid Ounce Bottle
+MS GARLIC SALT,McCormick Garlic Salt,garlic salt,Shaws,GARLIC SALT
+ARIZONA SWT TEA,Arizona Sweet Tea,sweet tea,Shaws,"ARIZONA, SWEET TEA"
+PLN CRN RCE SNK,Plain Corn Rice Snack,corn rice snack,Shaws,CRUNCHY RICE SNACK
+TWINIGS CLSC PRNCE,Twinings Classic Prince of Whales,tea,Shaws,
+BC COOL IN BLUE 6,BC Cool in Blue 6 types,sprinkles,Shaws,
+CL GEL FOOD COLORS,Gel Food colors,food coloring,Shaws,GEL FOOD COLORS
+BIGELOW TEA OOLONG,Bigelow Oolong Tea ,tea,Shaws,ORGANIC OOLONG TEA BAGS
+MINI PRETZELS,mini pretzels,pretzels,Shaws,MINI PRETZELS
+CD CRAN LM SLTZER,Canned Cranberry Lime Seltzer,selter,Shaws,CRANBERRY LIME SELTZER
+DELI,Everything Bagels,bagels,Publix,"WEIS, CLASSIC BAGELS, ONION"
+PBX SHR MON/JK CHS,Publix Shredded Monteray Jack Cheese,monteray jack cheese,Publix,COLBY AND MONTEREY JACK FINELY SHREDDED CHEESE
+LEAN GROUND BEEF,lean ground beef,ground beef,Publix,LEAN GROUND BEEF
+KFT CUPS 3 CHEESE,Kraft Macaroni and Cheese Cups Triple Cheese,mac and cheese cups,Publix,MAC & CHEESE
+MARUCH ORIENT 6PK,Maruch Ramen Noodles Oriental Flavor 6pk,ramen noodles,Publix,RAMEN NOODLES
+GRANDS! BUTTERMILK,Pillsbury Grands! Southern Homestyle Buttermilk biscuits,biscuits,Publix,BUTTERMILK BISCUITS
+PACE THIK/CHUNK SA,Pace Thick and Chunky Salsa,salsa,Publix,"PACE, CHUNKY SALSA"
+PUBLIX SOUR CREAM LT,publix sour cream light,sour cream,Publix,SOUR CREAM
+SPINACH PUBLIX,spinach publix,spinach,Publix,LEAF SPINACH
+MCCORMICK TACO MIX,McCormick Taco Mix,taco mix,Publix,CHIPOTLE TACO MIX
+BRC FLRT EAT SMART,Broccoli florret eat smart,broccoli florret,Publix,BROCCOLI
+KIKKOMAN SOY SAUCE,Kikkoman soy sauce,soy sauce,Publix,SOY SAUCE
+GRAPES WHT SDLS,grapes white seedless,grapes,Publix,GREEN GRAPE
+slice onion squash,sliced onion and squash package,onion and squash,Publix,SQUASH WITH VIDALIA ONIONS
+STIR FRY MX 4 SRV,Stir fry mix 4 serving,stir fry mix,Publix,ASIAN STYLE STIR FRY BLEND
+NV PROTEIN BARS,Nature Valley Protein Bars,protein bars,Publix,Nature Valley Sweet & Salty Roasted Mixed Nut Granola Bar
+BELL PEPPERS RED,bell peppers red,bell peppers,Publix,FIRE ROASTED RED BELL PEPPERS
+PEAS SNOW MICRO,peas snow microwave,peas snow,Publix,"PUBLIX, SNOW PEAS"
+KIND NUTRITI FB,Kind nutrition bar,nutrition bar,Target,"KIND HEALTHY GRAINS, CHEWY WITH A CRUNCH GRANOLA BAR, DARK CHOCOLATE CHUNK"
+NATR VAL BAR FB,Nature Valley Protein Bars,protein bars,Target,Nature Valley Sweet & Salty Roasted Mixed Nut Granola Bar
+ORG ZUCCHINI,organic zucchini,zucchini,Publix,ORGANIC ZUCCHINI SQUASH
+BROCCOLETTI,broccoli florret,broccoli,Publix,BROCCOLI
+PEPPERS GREEN BELL,peppers green bell,peppers bell,Publix,DICED GREEN BELL PEPPERS
+GRAPES RED SDLS,graoes red seedless,grapes,Publix,RED GRAPES
+ONIONS YELLOW,onions yellow,onions,Publix,YELLOW ONIONS
+BEEF FOR STIR FRY,Beef for stir fry,beef strips,Publix,ASIAN INSPIRED BEEF STRIPS
+GW EVRTHNG BGLS 4C,everything bagels 4 count,everything bagels,Publix,EVERYTHING BAGELS
+PBX SHRD MILD CHD,publix shredded  mild cheddar cheese,shredded cheese,Publix,SHREDDED MILD CHEDDAR CHEESE
+FRNKS BUFF WNG SAU,buffalo wing sauce,buffalo wing sauce,Publix,BUFFALO WING SAUCE
+PUB RANCH DRESS,publix ranch dressing,ranch dressing,Publix,"HIDDEN VALLEY, RANCH DRESSING"
+BNLS CHICK BREST,chicken breast,chicken brest,Publix,RAW STUFFED CHICKEN BREASTS
+SEA SCALLOPS,sea scallops,sea scallops,Publix,SEA SCALLOPS
+PHIL CREAM CHEESE,philadelphia cream cheese,cream cheese,Publix,PHILADELPHIA CREAM CHEESE-SOFT LIGHT
+santtitas yel corn,santtitas yellow corn,yellow corn,Publix,CORN
+NESTLE MORSELS,nestle morsels chocolate chips,chocolate chips,Publix,"NESTLE, GRAND ASSORTED CHOCOLATE"
+PUBLIX CREAM CHEES,publix cream cheese,cream cheese,Publix,PHILADELPHIA CREAM CHEESE-SOFT LIGHT

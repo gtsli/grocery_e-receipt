@@ -72,6 +72,17 @@ docs/_build/
 # PyBuilder
 target/
 
+# data files that should be removed
+./synthetic_data/data/cleaned_branded_data_no_commas.json
+./synthetic_data/data/cleaned_sr_legacy_data.csv
+./synthetic_data/data/cleaned_long_SR_Legacy_data.json
+./synthetic_data/data/cleaned_short_SR_Legacy_data.json
+./synthetic_data/data/SR_Legacy_products
+./synthetic_data/data/cleaned_branded.json
+
+# don't save any trained LSTM models, too large to push to github
+/approaches/LSTM/models/*
+
 # Jupyter Notebook
 MANIFEST
 build

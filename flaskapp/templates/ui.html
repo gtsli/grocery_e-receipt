@@ -1,0 +1,61 @@
+
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>PVI - Receipt Understanding</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/styles.css') }}">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	</head>
+   <body>
+   	<br>
+   	<br>
+   	<br>
+   	<center><h1>PVI - Receipt Understanding Demo Application</h1></center>
+   	<br>
+   	<br>
+   	<br>
+   	<br>
+   	<center>
+    <form action="http://localhost:5000/retrieve" method="post">
+        <p>Search custom input: </p>
+        <input type="text" placeholder="Search..." name="searched_receipt" />
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+	</center>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    {% if manual_search==False %}
+	    <table border=1>
+	    <tr>
+	      	<th>Receipt Title</th>
+	      	<th>LSTM Prediction</th>
+	    </tr>
+	    {% for i in range(receipt_titles|length) %}
+	    <tr> 	
+	      	<td>{{receipt_titles[i]}}</th>
+	      	<td>{{lstm_output[i][0]}}</td>
+	    </tr>
+	    {% endfor %}
+	  	</table>
+	{% elif manual_search==True %}
+		<table border=1>
+	    <tr>
+	      	<th>Receipt Title</th>
+	      	<th>LSTM Prediction</th>
+	    </tr>
+	    <tr> 	
+	      	<td>{{receipt_titles}}</th>
+	      	<td>{{lstm_output[0][0]}}</td>
+	    </tr>
+	  	</table>
+	{% endif %}
+
+   </body>
+</html>

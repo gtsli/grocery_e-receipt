@@ -2,7 +2,7 @@
 
 ## Release Notes version Receipt Translator 1.0
 
-### New Software Features
+#### New Software Features
 * Manually collected receipt data cleaning process
 * Synthetic data generation process
 * Initial trials of deep learning approaches to translate receipt data
@@ -11,11 +11,11 @@
 * API to connect to basic receipt parser and receipt translation machine learning models
 * Demo UI to showcase the functionality of the receipt translation machine learning models
 
-### Bug Fixes
+#### Bug Fixes
 * Optimized edit distance approach by organizing the data into buckets and only searching through relevant buckets
 * Search functionality in UI only worked on some machines and not others-- now works on all machines
 
-### Known Bugs and Defects
+#### Known Bugs and Defects
 * The approaches contained in this release represent the initial research conducted in this area and are not ready for production/sale. They do, however, represent a good base from which to move forward
 * API receipt parsing is hard coded to read Publix receipts only and has only been tested with one Publix e-receipt since this is not the focus of the release
 * Due to a lack of available real world data, the machine learning approaches were trained using synthetic data. If real world data is obtained, the models should be retrained

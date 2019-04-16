@@ -43,7 +43,10 @@ Next, open a terminal or command prompt. Navigate to the root directory of the p
 $ sudo pip install --upgrade pip
 $ pip install --upgrade -r requirements.txt
 ```
-
+If the above does not work on Windows, try:
+```
+$ pip install --user --upgrade -r requirements.txt
+```
 You are set!
 
 

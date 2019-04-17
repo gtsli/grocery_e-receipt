@@ -9,3 +9,12 @@ th, td {
 }
 
 tr:nth-child(even) {background-color: #f2f2f2;}
+
+div {
+    font-weight:normal;
+}
+
+#receipt-shorthand {
+    color: gray;
+    width: 50%;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<head>
+    <title>PVI Demo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/index_styles.css') }}">
+</head>
+<body>
+<h1 style="text-align:center">
+    Personal Virtual Inventory Project - Receipt Understanding Demo Application
+</h1>
+<table style="width:100%;text-align:left;margin:30px 30px 30px 30px;font-weight:normal">
+    <tr>
+        <th><h3>HTML Receipt-Parser Demo</h3></th>
+        <th><h3>Receipt Understanding Demo</h3></th>
+    </tr>
+    <tr>
+        <th>
+            <div>
+                Uploaded HTML: <br><br>
+                <form action = "http://localhost:5000/uploader" method = "POST" enctype = "multipart/form-data">
+                    <input type = "file" name = "receipt"/><br>
+                    <input type = "submit" value="View Parsed Receipt Data"/><br>
+                </form>
+                <p>
+                {% for para in text %}
+                    {{para}}],<br>
+                {% endfor %}
+                </p>
+            </div>
+        </th>
+        <th>
+            <div>
+                <input type="text" name="receipt-shorthand" id="receipt-shorthand" value="Type in the receipt shorthand...">
+                <button type="button">Generate Guess</button> <br>
+                <p>
+                    Using Deep Learning: <br>
+                    Using GBDT: <br>
+                    Using Edit Distance: <br>
+                </p>
+
+            </div>
+        </th>
+    </tr>
+</table>
+
+
+<!--<p th:text="'Hello, ' + ${name} + '!'" /> -->
+</body>
+</html>

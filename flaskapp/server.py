@@ -3,8 +3,9 @@ import json
 import numpy as np
 import sklearn
 import pickle
+import requests
+from keras import backend as K
 
-#C:\Users\kevin\Anaconda3\envs\tensorflow\lib\site-packages\h5py\__init__.py
 
 ##LSTM imports
 from keras.preprocessing.text import Tokenizer
@@ -36,6 +37,21 @@ def retrieve():
 										receipt_titles=searched,
 										lstm_output=output)
 
+@app.route("/index")
+def load_blank():
+	return render_template("index.html")
+
+@app.route('/uploader', methods = ['POST'])
+def upload_file():
+	file = request.files['receipt']
+	if file.filename != '':
+		data = file.read()
+		output = requests.get("http://127.0.0.1:8080/get-receipt-info", data=data).content.decode("utf-8")
+		json_data = output
+		with open('data.json', 'w') as outfile:
+			json.dump(json_data, outfile)
+		output = output.split("],")
+		return render_template("index.html", text=output)
 
 
 
@@ -48,7 +64,7 @@ def lstm_output(searched=None, internal_call=False):
 	le - label encoder to decode output
 	'''
 
-
+	K.clear_session()
 	lstm_path = "../approaches/LSTM/"
 	with open(lstm_path+"pickled/tokenizer.pickle", 'rb') as handle:
 	    tokenizer = pickle.load(handle)
@@ -82,4 +98,4 @@ def lstm_output(searched=None, internal_call=False):
 
 
 if __name__ == "__main__":
-	app.run(debug=True)
+	app.run(debug=True, port=5000)

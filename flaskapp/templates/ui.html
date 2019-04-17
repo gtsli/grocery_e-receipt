@@ -38,9 +38,9 @@
 	      	<th>LSTM Prediction</th>
 	    </tr>
 	    {% for i in range(receipt_titles|length) %}
-	    <tr> 	
+	    <tr>
 	      	<td>{{receipt_titles[i]}}</th>
-	      	<td>{{lstm_output[i][0]}}</td>
+	      	<td>{{lstm_output[i]}}</td>
 	    </tr>
 	    {% endfor %}
 	  	</table>
@@ -50,9 +50,9 @@
 	      	<th>Receipt Title</th>
 	      	<th>LSTM Prediction</th>
 	    </tr>
-	    <tr> 	
+	    <tr>
 	      	<td>{{receipt_titles}}</th>
-	      	<td>{{lstm_output[0][0]}}</td>
+	      	<td>{{lstm_output[0]}}</td>
 	    </tr>
 	  	</table>
 	{% endif %}

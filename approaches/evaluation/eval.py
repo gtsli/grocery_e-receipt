@@ -33,9 +33,13 @@ def partial_acc(pred, actual):
         for each_word_pred in pred[i].split(" "):
             if match:
                 break
+            if len(each_word_pred) == 0:
+                break
             if each_word_pred[-1] == 'S':
                 each_word_pred = each_word_pred[:len(each_word_pred)-1]
             for each_word_actual in actual[i].split(" "):
+                if len(each_word_actual) == 0:
+                    break
                 if each_word_actual[-1] == 'S':
                     each_word_actual = each_word_actual[:len(each_word_actual)-1]
                 if each_word_actual == each_word_pred:

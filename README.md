@@ -1,6 +1,6 @@
 # Personal Virtual Inventory Receipt Translation Github
 
-## Release Notes version Receipt Translator 1.0
+## Release Notes version Receipt Understanding 1.0
 
 #### New Software Features
 * Manually collected receipt data cleaning process

@@ -6,19 +6,9 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/index_styles.css') }}">
 </head>
 <body>
-    <br>
-    <br>
-    <br>
-    
-<h1 style="text-align:center">Personal Virtual Inventory Project - Receipt Understanding Demo Application</h1>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
+<div id="header">
+    <h1 style="text-align:center">Personal Virtual Inventory Project - Receipt Understanding Demo Application</h1>
+</div>
 <div id="all_content">
     <div class="col-sm-1" id="receipt_parse"></div>
     <div class="col-sm-4" id="receipt_parse">
@@ -29,7 +19,7 @@
         Uploaded HTML: <br><br>
         <form action = "http://localhost:5000/uploader" method = "POST" enctype = "multipart/form-data">
             <input type = "file" name = "receipt"/><br>
-            <input type = "submit" value="View Parsed Receipt Data"/><br>
+            <input type = "submit" id="submitButtonJSON" value="View Parsed Receipt Data"/><br>
         </form>
         
         {% for para in text %}
@@ -45,13 +35,15 @@
         <br>
             <form action="http://localhost:5000/retrieve" method="post">
                 <p>Search custom input: </p>
-                <input type="text" placeholder="Search..." name="searched_receipt" />
-                <button type="submit"><i class="fa fa-search"></i></button>
+                <input type="text" id="searchInput" placeholder="Search..." name="searched_receipt" />
+                <button type="submit" id="submitButtonSearch"><i class="fa fa-search">Enter</i></button>
             </form>
-            
-            <b>Using Deep Learning:</b> {%if manual_search==True %} {{lstm_output_searched[0]}} {% endif %}<br>
-            <b>Using GBDT: </b><br>
-            <b>Using Edit Distance:</b> {%if manual_search==True %} {{edit_distance_output_searched}} {% endif %}<br> 
+            <br>
+            <div id="searchResults">
+                <b>Using Deep Learning:</b> {%if manual_search==True %} {{lstm_output_searched[0]}} {% endif %}<br>
+                <b>Using GBDT: </b><br>
+                <b>Using Edit Distance:  </b> {%if manual_search==True %} {{edit_distance_output_searched}} {% endif %}<br> 
+            </div>
 
             <br>
             <br>

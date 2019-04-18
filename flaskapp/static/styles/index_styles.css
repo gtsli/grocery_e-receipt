@@ -23,3 +23,52 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 	width:1000px;
 	height: 800px;
 }
+
+#submitButtonJSON {
+  background-color: #daebf2;
+  color: black;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#submitButtonSearch{
+  background-color: #daebf2;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  width: 100px;
+  height: 27px;
+}
+
+#submitButtonJSON.active, #submitButtonJSON:hover, #submitButtonSearch.active, #submitButtonSearch:hover {
+  background-color: #bfe4f2;
+}
+
+#header {
+  background: #daebf2;
+  height: 100px;
+  padding: 15px;
+}
+
+#searchInput {
+  font-size: 16px;
+  width: 60%;
+  height: 30px;
+  padding: 5px;
+}
+
+#searchResults {
+  padding: 15px;
+  background: #daebf2;
+}

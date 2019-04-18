@@ -41,6 +41,7 @@
 	    <tr>
 	      	<td>{{receipt_titles[i]}}</th>
 	      	<td>{{lstm_output[i]}}</td>
+	      	<td>{{edit_distance_output[i]}}</td>
 	    </tr>
 	    {% endfor %}
 	  	</table>
@@ -49,10 +50,12 @@
 	    <tr>
 	      	<th>Receipt Title</th>
 	      	<th>LSTM Prediction</th>
+	      	<th>Edit Distance Prediction</th>
 	    </tr>
 	    <tr>
 	      	<td>{{receipt_titles}}</th>
 	      	<td>{{lstm_output[0]}}</td>
+	      	<td>{{edit_distance_output}}</td>
 	    </tr>
 	  	</table>
 	{% endif %}

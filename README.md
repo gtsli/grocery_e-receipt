@@ -1,3 +1,4 @@
+
 # Personal Virtual Inventory Receipt Translation Github
 
 ## Release Notes version Receipt Understanding 1.0
@@ -32,13 +33,15 @@ The Personal Virtual Inventory Project will help millions of diabetic and predia
 The following displays the general pipeline of the project. For more information about this project and the pipeline process, review the accompanying documentation. 
 <img src="imgs/Pipeline_Static.jpg" width="1000" height="600">
 
-# Getting Started
+# Install Guide
 
-This project requires [python 2.7](https://www.python.org/downloads/release/python-2713/). Please install [python 2.7](https://www.python.org/downloads/release/python-2713/) for the designated operating system you are using. If asked about putting python in your PATH, say yes. 
+## Pre-requisites
+Before continuing, it is necessary to have several components:
+* A C++ compiler. Please install [Build Tools for Microsoft Visual Studio]([https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2017](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2017)). Scroll down to `Tools for Visual Studio 2019` and press download on the section titled: `Build Tools for Visual Studio 2019`. 
+* This project requires [python 3.6](https://www.python.org/downloads/)+. Please install [python 3.6](https://www.python.org/downloads/) for the designated operating system you are using. If asked about putting python in your PATH, say yes. 
+* This project also requires installing [postman](https://www.getpostman.com/downloads/). Please install postman [here](https://www.getpostman.com/downloads/).
 
-This project also requires installing [postman](https://www.getpostman.com/downloads/). Please install postman [here](https://www.getpostman.com/downloads/).
-
-Next, open a terminal or command prompt. Navigate to the root directory of the project. To install all the libraries and dependencies required for the project, follow the command:
+Once all the above pre-requisites are downloaded, open a terminal or command prompt. Navigate to the root directory of the project. We have provided a build script to install all of the necessary dependencies and libraries for this project. To install them, follow the command:
 ```
 $ sudo pip install --upgrade pip
 $ pip install --upgrade -r requirements.txt
@@ -49,6 +52,10 @@ $ pip install --user --upgrade -r requirements.txt
 ```
 You are set!
 
+**PLEASE NOTE: Every major project folder contains their own individual and unique README that heavily details both the content of the folder and how to run it**
+
+
+
 
 # Navigation
 
@@ -58,5 +65,7 @@ This project is organized by the different high level folders, each high level f
 This section contains the code necessary to run the web service (API) that can receive an HTML receipt as input and return the JSON-formatted parsing of the receipt.
 #### /approaches
 This section contains the code written to test and train the three different approaches used to try to understand receipts.
+#### /flaskapp 
+This section contains all the necessary code to run a webapp that will display every functionality of this project. 
 #### /synthetic data 
 This section contains the code written to process the USDA branded product database by cleaning it and generating synthetic data that can be used for the different approaches.

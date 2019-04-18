@@ -96,33 +96,26 @@ def predict(searched=None, internal_call=False):
 		#=========================================================
 
 		# edit distance
-		# print("searched: " + searched)
+
 		# find first letter of every word in the string
 		words = searched.split()
-		# print("words: " + str(words))
 		letters = [word[0] for word in words]
-		# print("letters: " + str(letters))
+
 		# get corresponding buckets 
 		first_letter = searched[0]
 		products = []
 		for bucket in data:
-			# print("bucket " + str(bucket))
-			# print("first_letter " + str(first_letter.lower()))
-			# print("bucket[0][0] " + str(bucket[0][0].lower()))
 			if bucket[0][0].lower() == first_letter.lower():
-				print("match!")
 				products += bucket
 
 		# remove non-ascii characters
 		cleaned_products = []
-		# print("products " + str(products))
 		for entry in products:
 			cleaned_entry = ""
 			for character in entry:
 				if ord(character) <= 128:
 					cleaned_entry += character
 			cleaned_products.append(cleaned_entry)
-		# print("cleaned_products " + str(cleaned_products))
 
 		insert_costs = np.full(128, .3, dtype=np.float64)  # make an array of all 1's of size 128, the number of ASCII characters
 		transpose_costs = np.full((128, 128), .7, dtype=np.float64)
@@ -132,13 +125,11 @@ def predict(searched=None, internal_call=False):
 		closest_string = None
 
 		for line in cleaned_products:
-			# print("line: " + str(line))
 			distance = osa(searched.lower(), line.lower(), insert_costs=insert_costs, transpose_costs=transpose_costs, delete_costs=delete_costs)
 			if closest_distance is None or distance < closest_distance:
 				closest_distance = distance
 				closest_string = line.lower()
 
-		print("closest_string: " + str(closest_string))
 		edit_distance_pred = closest_string
 		return (lstm_preds, edit_distance_pred)
 	else:
@@ -151,15 +142,15 @@ def predict(searched=None, internal_call=False):
 		#=========================================================
 
 		# edit distance
-		titles = json.load(receipt_titles)
 		edit_distance_preds = []
-		for title in titles:
+		for title in receipt_titles:
+			
 			# find first letter of every word in the string
-			words = searched.split()
+			words = title.split()
 			letters = [word[0] for word in words]
 
 			# get corresponding buckets 
-			first_letter = searched[0]
+			first_letter = title[0]
 			products = []
 			for bucket in data:
 				if bucket[0][0] == first_letter:
@@ -182,7 +173,7 @@ def predict(searched=None, internal_call=False):
 			closest_string = None
 
 			for line in cleaned_products:
-				distance = osa(string.lower(), line.lower(), insert_costs=insert_costs, transpose_costs=transpose_costs, delete_costs=delete_costs)
+				distance = osa(title.lower(), line.lower(), insert_costs=insert_costs, transpose_costs=transpose_costs, delete_costs=delete_costs)
 				if closest_distance is None or distance < closest_distance:
 					closest_distance = distance
 					closest_string = line.lower()
@@ -192,7 +183,7 @@ def predict(searched=None, internal_call=False):
 		return render_template("ui.html", manual_search=False,
 											receipt_titles=receipt_titles,
 											lstm_output=lstm_preds,
-											edit_distance_ouput=edit_distance_preds)
+											edit_distance_output=edit_distance_preds)
 
 
 

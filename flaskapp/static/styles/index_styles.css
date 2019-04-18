@@ -71,4 +71,11 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 #searchResults {
   padding: 15px;
   background: #daebf2;
+  float: left;
+}
+
+#searchResultsText {
+  padding: 15px;
+  background: #daebf2;
+  float:left;
 }

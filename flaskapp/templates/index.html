@@ -39,10 +39,15 @@
                 <button type="submit" id="submitButtonSearch"><i class="fa fa-search">Enter</i></button>
             </form>
             <br>
-            <div id="searchResults">
-                <b>Using Deep Learning:</b> {%if manual_search==True %} {{lstm_output_searched[0]}} {% endif %}<br>
+            <div id="searchResultsText">
+                <b>Using Deep Learning:</b><br>
                 <b>Using GBDT: </b><br>
-                <b>Using Edit Distance:  </b> {%if manual_search==True %} {{edit_distance_output_searched}} {% endif %}<br> 
+                <b>Using Edit Distance:  </b><br> 
+            </div>
+            <div id="searchResults">
+                {%if manual_search==True %} {{lstm_output_searched[0]}} {% endif %}<br>
+                <br>
+                {%if manual_search==True %} {{edit_distance_output_searched}} {% endif %}<br> 
             </div>
 
             <br>

@@ -39,7 +39,7 @@ The following displays the general pipeline of the project. For more information
 Before continuing, it is necessary to have several components:
 * A C++ compiler. Please install [Build Tools for Microsoft Visual Studio]([https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2017](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2017)). Scroll down to `Tools for Visual Studio 2019` and press download on the section titled: `Build Tools for Visual Studio 2019`. 
 * This project requires [python 3.6](https://www.python.org/downloads/)+. Please install [python 3.6](https://www.python.org/downloads/) for the designated operating system you are using. If asked about putting python in your PATH, say yes. 
-* This project also requires installing [postman](https://www.getpostman.com/downloads/). Please install postman [here](https://www.getpostman.com/downloads/).
+* This project uses postman for manually testing the API. If you wish to manually test the API, please install postman [here](https://www.getpostman.com/downloads/).
 
 Once all the above pre-requisites are downloaded, open a terminal or command prompt. Navigate to the root directory of the project. We have provided a build script to install all of the necessary dependencies and libraries for this project. To install them, follow the command:
 ```
@@ -51,6 +51,15 @@ If the above does not work on Windows, try:
 $ pip install --user --upgrade -r requirements.txt
 ```
 You are set!
+
+## Troubleshooting
+* If you are using a virtual environment like `Anaconda`, Microsoft's C++ build tools may not work inside your virtual environment due to environment paths. Please deactivate your environment and rerun the build script (only `weighted-levenshtein` library requires the C++ build tools)
+* If the build script (`requirements.txt`) does not work due to a version imbalance (very low chance of happening), please either:
+	* Update your pip with: `$ sudo pip install --upgrade pip` or
+	* Go into `requirements.txt` and change the version requirements to a supported version. Ex: `keras==2.2.4` --> `keras==2.2.5`, etc.
+
+
+
 
 **PLEASE NOTE: Every major project folder contains their own individual and unique README that heavily details both the content of the folder and how to run it**
 

@@ -18,22 +18,20 @@ from keras.utils import to_categorical
 from sklearn import preprocessing
 
 app = Flask(__name__)
-with open("receipt_outputs/ex_output.json") as in_json:
-	receipt_titles = json.load(in_json)
+
 
 
 @app.route("/")
 def reload():
-	with open("receipt_outputs/ex_output.json") as in_json:
-		receipt_titles = json.load(in_json)
-	return render_template("ui.html", receipt_titles=receipt_titles)
+	return render_template("index.html")
+
 
 @app.route("/retrieve", methods=['POST', 'GET'])
 def retrieve():
 	searched = request.form['searched_receipt']
-	output = lstm_output(searched, True)
+	output = lstm_output(searched)
 	print ('output = ', output)
-	return render_template("ui.html", manual_search=True,
+	return render_template("index.html", manual_search=True,
 										receipt_titles=searched,
 										lstm_output=output)
 
@@ -47,16 +45,15 @@ def upload_file():
 	if file.filename != '':
 		data = file.read()
 		output = requests.get("http://127.0.0.1:8080/get-receipt-info", data=data).content.decode("utf-8")
-		json_data = output
+		loaded = json.loads(output)
 		with open('data.json', 'w') as outfile:
-			json.dump(json_data, outfile)
-		output = output.split("],")
-		return render_template("index.html", text=output)
+			json.dump(loaded, outfile)
+		return render_template("index.html", text=loaded)
 
 
 
-@app.route("/LSTM", methods=['POST', 'GET'])
-def lstm_output(searched=None, internal_call=False):
+# @app.route("/LSTM", methods=['POST', 'GET'])
+def lstm_output(input_titles):
 	'''
 	important variables:
 	tokenizer - tokenizer for tokenizing text
@@ -73,24 +70,13 @@ def lstm_output(searched=None, internal_call=False):
 	le.classes_ = np.load(lstm_path+"pickled/labelencoder_classes.npy")
 	tokenizer.oov_token = None
 
-	## if internal call ##
-	if internal_call:
-		encoded_x = tokenizer.texts_to_sequences([searched])
-		padded = pad_sequences(encoded_x, 25)
-		preds = lstm_model.predict(padded)
-		pred_labels = [[np.argmax(x)] for x in preds]
-		preds = le.inverse_transform(pred_labels)
-		return preds
-	else:
-		encoded_x = tokenizer.texts_to_sequences(receipt_titles)
-		padded = pad_sequences(encoded_x, 25)
-		preds = lstm_model.predict(padded)
-		pred_labels = [[np.argmax(x)] for x in preds]
-		preds = le.inverse_transform(pred_labels)
+	encoded_x = tokenizer.texts_to_sequences(input_titles)
+	padded = pad_sequences(encoded_x, 25)
+	preds = lstm_model.predict(padded)
+	pred_labels = [[np.argmax(x)] for x in preds]
+	preds = le.inverse_transform(pred_labels)
 
-		return render_template("ui.html", manual_search=False,
-											receipt_titles=receipt_titles,
-											lstm_output=preds)
+	return preds
 
 
 

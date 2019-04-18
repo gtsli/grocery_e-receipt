@@ -2,48 +2,77 @@
 <head>
     <title>PVI Demo</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/index_styles.css') }}">
 </head>
 <body>
-<h1 style="text-align:center">
-    Personal Virtual Inventory Project - Receipt Understanding Demo Application
-</h1>
-<table style="width:100%;text-align:left;margin:30px 30px 30px 30px;font-weight:normal">
-    <tr>
-        <th><h3>HTML Receipt-Parser Demo</h3></th>
-        <th><h3>Receipt Understanding Demo</h3></th>
-    </tr>
-    <tr>
-        <th>
-            <div>
-                Uploaded HTML: <br><br>
-                <form action = "http://localhost:5000/uploader" method = "POST" enctype = "multipart/form-data">
-                    <input type = "file" name = "receipt"/><br>
-                    <input type = "submit" value="View Parsed Receipt Data"/><br>
-                </form>
-                <p>
-                {% for para in text %}
-                    {{para}}],<br>
+<h1 style="text-align:center">Personal Virtual Inventory Project - Receipt Understanding Demo Application</h1>
+
+<center>
+    <h3>HTML Receipt-Parser Demo</h3>
+    <h3>Receipt Understanding Demo</h3>
+</center>
+
+
+<div id="all_content">
+    <div class="col-sm-4" id="receipt_parse">
+        Uploaded HTML: <br><br>
+        <form action = "http://localhost:5000/uploader" method = "POST" enctype = "multipart/form-data">
+            <input type = "file" name = "receipt"/><br>
+            <input type = "submit" value="View Parsed Receipt Data"/><br>
+        </form>
+        
+        {% for para in text %}
+            <h4>{{para}}:</h4> {{text[para]}} <br>
+            <br>
+        {% endfor %}
+    </div>
+
+    <div class="col-sm-8" id="receipt_predict">
+        <center>
+            <form action="http://localhost:5000/retrieve" method="post">
+                <p>Search custom input: </p>
+                <input type="text" placeholder="Search..." name="searched_receipt" />
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            </center>
+            Using Deep Learning: <br>
+            Using GBDT: <br>
+            Using Edit Distance: <br>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            {% if manual_search==False %}
+                <table border=1>
+                <tr>
+                    <th>Receipt Title</th>
+                    <th>LSTM Prediction</th>
+                </tr>
+                {% for i in range(receipt_titles|length) %}
+                <tr>
+                    <td>{{receipt_titles[i]}}</th>
+                    <td>{{lstm_output[i]}}</td>
+                </tr>
                 {% endfor %}
-                </p>
-            </div>
-        </th>
-        <th>
-            <div>
-                <input type="text" name="receipt-shorthand" id="receipt-shorthand" value="Type in the receipt shorthand...">
-                <button type="button">Generate Guess</button> <br>
-                <p>
-                    Using Deep Learning: <br>
-                    Using GBDT: <br>
-                    Using Edit Distance: <br>
-                </p>
-
-            </div>
-        </th>
-    </tr>
-</table>
-
-
-<!--<p th:text="'Hello, ' + ${name} + '!'" /> -->
+                </table>
+            {% elif manual_search==True %}
+                <table border=1>
+                <tr>
+                    <th>Receipt Title</th>
+                    <th>LSTM Prediction</th>
+                </tr>
+                <tr>
+                    <td>{{receipt_titles}}</th>
+                    <td>{{lstm_output[0]}}</td>
+                </tr>
+                </table>
+            {% endif %}
+    </div>
+</div>          
+</dive>
 </body>
 </html>

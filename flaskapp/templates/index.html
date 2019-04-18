@@ -6,16 +6,26 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/index_styles.css') }}">
 </head>
 <body>
+    <br>
+    <br>
+    <br>
+    
 <h1 style="text-align:center">Personal Virtual Inventory Project - Receipt Understanding Demo Application</h1>
 
-<center>
-    <h3>HTML Receipt-Parser Demo</h3>
-    <h3>Receipt Understanding Demo</h3>
-</center>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 <div id="all_content">
+    <div class="col-sm-1" id="receipt_parse"></div>
     <div class="col-sm-4" id="receipt_parse">
+        <center><h3>HTML Receipt-Parser Demo</h3></center>
+        <br>
+        <br>
+        <br>
         Uploaded HTML: <br><br>
         <form action = "http://localhost:5000/uploader" method = "POST" enctype = "multipart/form-data">
             <input type = "file" name = "receipt"/><br>
@@ -27,18 +37,21 @@
             <br>
         {% endfor %}
     </div>
-
-    <div class="col-sm-8" id="receipt_predict">
-        <center>
+    <div class="col-sm-1" id="receipt_parse"></div>
+    <div class="col-sm-6" id="receipt_predict">
+        <center><h3>Receipt Understanding Demo</h3></center>
+        <br>
+        <br>
+        <br>
             <form action="http://localhost:5000/retrieve" method="post">
                 <p>Search custom input: </p>
                 <input type="text" placeholder="Search..." name="searched_receipt" />
                 <button type="submit"><i class="fa fa-search"></i></button>
             </form>
-            </center>
-            Using Deep Learning: <br>
-            Using GBDT: <br>
-            Using Edit Distance: <br>
+            
+            <b>Using Deep Learning:</b> {%if manual_search==True %} {{lstm_output_searched[0]}} {% endif %}<br>
+            <b>Using GBDT: </b><br>
+            <b>Using Edit Distance:</b> {%if manual_search==True %} {{edit_distance_output_searched}} {% endif %}<br> 
 
             <br>
             <br>
@@ -46,31 +59,21 @@
             <br>
             <br>
 
-            {% if manual_search==False %}
-                <table border=1>
-                <tr>
-                    <th>Receipt Title</th>
-                    <th>LSTM Prediction</th>
-                </tr>
-                {% for i in range(receipt_titles|length) %}
-                <tr>
-                    <td>{{receipt_titles[i]}}</th>
-                    <td>{{lstm_output[i]}}</td>
-                </tr>
-                {% endfor %}
-                </table>
-            {% elif manual_search==True %}
-                <table border=1>
-                <tr>
-                    <th>Receipt Title</th>
-                    <th>LSTM Prediction</th>
-                </tr>
-                <tr>
-                    <td>{{receipt_titles}}</th>
-                    <td>{{lstm_output[0]}}</td>
-                </tr>
-                </table>
-            {% endif %}
+            <table border=1>
+            <tr>
+                <th>Receipt Title</th>
+                <th>LSTM Prediction</th>
+                <th>Edit Distance Prediction</th>
+            </tr>
+            {% for i in range(receipt_titles|length) %}
+            <tr>
+                <td>{{receipt_titles[i]}}</th>
+                <td>{{lstm_output[i]}}</td>
+                <td>{{edit_distance_output[i]}}</td>
+            </tr>
+            {% endfor %}
+            </table>
+
     </div>
 </div>          
 </dive>

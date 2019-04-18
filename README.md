@@ -37,7 +37,7 @@ The following displays the general pipeline of the project. For more information
 
 ## Pre-requisites
 Before continuing, it is necessary to have several components:
-* A C++ compiler. Please install [Build Tools for Microsoft Visual Studio]([https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2017](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2017)). Scroll down to `Tools for Visual Studio 2019` and press download on the section titled: `Build Tools for Visual Studio 2019`. 
+* A C++ compiler. Please install [Build Tools for Microsoft Visual Studio](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2017). Scroll down to `Tools for Visual Studio 2019` and press download on the section titled: `Build Tools for Visual Studio 2019`. 
 * This project requires [python 3.6](https://www.python.org/downloads/)+. Please install [python 3.6](https://www.python.org/downloads/) for the designated operating system you are using. If asked about putting python in your PATH, say yes. 
 * This project uses postman for manually testing the API. If you wish to manually test the API, please install postman [here](https://www.getpostman.com/downloads/).
 

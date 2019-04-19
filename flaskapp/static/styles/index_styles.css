@@ -114,3 +114,7 @@ p {
 #table {
   padding-top: 15px;  
 }
+
+#extraSpace {
+  height: 25px;
+}

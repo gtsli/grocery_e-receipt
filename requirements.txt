@@ -25,3 +25,6 @@ weighted-levenshtein==0.2.1
 
 #### UI and server packages
 flask==1.0.2
+
+#### Miscellaneous packages
+requests==2.21.0

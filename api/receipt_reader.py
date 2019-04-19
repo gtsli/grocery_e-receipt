@@ -76,15 +76,20 @@ def get_items(receipt):
                 items.append(item[:2])
         curr += 1
 
-    return translate_items(items)
+    print("items " + str(items))
+    names = []
+    for item in items:
+        names.append(item[0])
+    return names
+    # return translate_items(items)
 
 
 # work will be done here
 def translate_items(items):
     translated = []
     for item in items:
-        # translated.append(find_closest_string(item[0]))
-        translated.append(find_closest_string_weighted(item[0]))
+        translated.append(find_closest_string(item[0]))
+        # translated.append(find_closest_string_weighted(item[0]))
     return translated
 
 

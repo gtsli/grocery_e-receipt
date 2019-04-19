@@ -152,8 +152,8 @@ def predict(searched=None, internal_call=False, receipt=None, receipt_titles=Non
 
 		# edit distance
 		edit_distance_preds = []
-		for title in receipt_titles:
-			
+		for title in receipt_titles[:]:
+
 			# find first letter of every word in the string
 			words = title.split()
 			letters = [word[0] for word in words]
@@ -200,6 +200,7 @@ def predict(searched=None, internal_call=False, receipt=None, receipt_titles=Non
 		receipt_titles_global=receipt_titles
 		lstm_output=lstm_preds
 		edit_distance_output=edit_distance_preds
+		print("edit_distance_output " + str(edit_distance_output))
 
 
 		return render_template("index.html", manual_search=False,

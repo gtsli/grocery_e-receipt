@@ -10,7 +10,7 @@
     <h1 style="text-align:center">Personal Virtual Inventory Project - Receipt Understanding Demo Application</h1>
 </div>
 <div id="all_content">
-    <div class="col-sm-1" id="receipt_parse"></div>
+    <!-- <div class="col-sm-1" id="receipt_parse"></div> -->
     <div class="col-sm-4" id="receipt_parse">
         <center><h3>HTML Receipt-Parser Demo</h3></center>
         <br>
@@ -35,8 +35,10 @@
         <br>
             <form action="http://localhost:5000/retrieve" method="post">
                 <p>Search custom input: </p>
-                <input type="text" id="searchInput" placeholder="Search..." name="searched_receipt" />
-                <button type="submit" id="submitButtonSearch"><i class="fa fa-search">Enter</i></button>
+                <div id="search">
+                    <input type="text" id="searchInput" placeholder="Search..." name="searched_receipt" />
+                    <button type="submit" id="submitButtonSearch"><i class="fa fa-search">Enter</i></button>
+                </div>
             </form>
             <br>
             <div id="searchResultsText">
@@ -49,14 +51,13 @@
                 <br>
                 {%if manual_search==True %} {{edit_distance_output_searched}} {% endif %}<br> 
             </div>
-
             <br>
             <br>
             <br>
             <br>
             <br>
 
-            <table border=1>
+            <table id="table" border=1>
             <tr>
                 <th>Receipt Title</th>
                 <th>LSTM Prediction</th>

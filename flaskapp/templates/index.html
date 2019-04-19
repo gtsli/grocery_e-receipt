@@ -12,6 +12,7 @@
 <div id="all_content">
     <!-- <div class="col-sm-1" id="receipt_parse"></div> -->
     <div class="col-sm-4" id="receipt_parse">
+        <div id="smallbreak"></div>
         <center><h3>HTML Receipt-Parser Demo</h3></center>
         <br>
         <br>
@@ -19,9 +20,9 @@
         Uploaded HTML: <br><br>
         <form action = "http://localhost:5000/uploader" method = "POST" enctype = "multipart/form-data">
             <input type = "file" name = "receipt"/><br>
-            <input type = "submit" id="submitButtonJSON" value="View Parsed Receipt Data"/><br>
+            <input type = "submit" id="submitButtonJSON" value="Parse/Translate Receipt"/><br>
         </form>
-        
+        <div id="smallbreak"></div>
         {% for para in text %}
             <h4>{{para}}:</h4> {{text[para]}} <br>
             <br>
@@ -29,10 +30,10 @@
     </div>
     <div class="col-sm-1" id="receipt_parse"></div>
     <div class="col-sm-6" id="receipt_predict">
-        <center><h3>Receipt Understanding Demo</h3></center>
-        <br>
-        <br>
-        <br>
+        <div id="oneItemSearchDiv">
+            <div id="smallbreak"></div>
+            <center><h3 id="titleOneItem">Receipt Understanding Demo</h3></center>
+            <div id="grayBreak"></div>
             <form action="http://localhost:5000/retrieve" method="post">
                 <p>Search custom input: </p>
                 <div id="search">
@@ -51,12 +52,9 @@
                 <br>
                 {%if manual_search==True %} {{edit_distance_output_searched}} {% endif %}<br> 
             </div>
+        </div>
             <div id="extraSpace"></div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            
 
             <table id="table" border=1>
             <tr>

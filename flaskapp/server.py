@@ -80,11 +80,11 @@ def predict(searched=None, internal_call=False, receipt=None, receipt_titles=Non
 	# lstm
 	K.clear_session()
 	lstm_path = "../approaches/LSTM/"
-	with open(lstm_path+"pickled/tokenizer.pickle", 'rb') as handle:
+	with open(lstm_path+"pickled/tokenizer_300k_1epoch.pickle", 'rb') as handle:
 		tokenizer = pickle.load(handle)
-	lstm_model = load_model(lstm_path+"models/lstm_50k_epochs_5.h5")
+	lstm_model = load_model(lstm_path+"models/lstm_300k_epochs_1.h5")
 	le = preprocessing.LabelEncoder()
-	le.classes_ = np.load(lstm_path+"pickled/labelencoder_classes.npy")
+	le.classes_ = np.load(lstm_path+"pickled/labelencoder_classes_300k_1epoch.npy")
 	tokenizer.oov_token = None
 
 

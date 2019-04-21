@@ -13,15 +13,18 @@
     <!-- <div class="col-sm-1" id="receipt_parse"></div> -->
     <div class="col-sm-4" id="receipt_parse">
         <div id="smallbreak"></div>
-        <center><h3>HTML Receipt-Parser Demo</h3></center>
-        <br>
-        <br>
-        <br>
-        Uploaded HTML: <br><br>
-        <form action = "http://localhost:5000/uploader" method = "POST" enctype = "multipart/form-data">
-            <input type = "file" name = "receipt"/><br>
-            <input type = "submit" id="submitButtonJSON" value="Parse/Translate Receipt"/><br>
-        </form>
+        <div id="inputReceipt">
+            <div id="grayBreak"></div>
+            <center><h3>HTML Receipt-Parser Demo</h3></center>
+            <br>
+            <br>
+            <br>
+            Uploaded HTML: <br><br>
+            <form action = "http://localhost:5000/uploader" method = "POST" enctype = "multipart/form-data">
+                <input type = "file" name = "receipt"/><br>
+                <input type = "submit" id="submitButtonJSON" value="Parse/Translate Receipt"/><br>
+            </form>
+        </div>
         <div id="smallbreak"></div>
         {% for para in text %}
             <h4>{{para}}:</h4> {{text[para]}} <br>
@@ -57,10 +60,13 @@
             
 
             <table id="table" border=1>
-            <tr>
-                <th>Receipt Title</th>
-                <th>LSTM Prediction</th>
-                <th>Edit Distance Prediction</th>
+            <tr> 
+                {% if receipt_titles %}
+                    <th>Receipt Title</th>
+                    <th>LSTM Prediction</th>
+                    <th>Edit Distance Prediction</th>
+                {% endif %}
+                
             </tr>
             {% for i in range(receipt_titles|length) %}
             <tr>

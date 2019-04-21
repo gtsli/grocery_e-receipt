@@ -25,11 +25,14 @@
                 <input type = "submit" id="submitButtonJSON" value="Parse/Translate Receipt"/><br>
             </form>
         </div>
-        <div id="smallbreak"></div>
-        {% for para in text %}
-            <h4>{{para}}:</h4> {{text[para]}} <br>
-            <br>
-        {% endfor %}
+        <div id="extraSpace"></div>
+        {% if text %}
+            <h3>Items in Receipt:</h3>
+            {% for para in text %}
+                <h4>{{para}}:</h4> {{text[para]}} <br>
+                <br>
+            {% endfor %}
+        {% endif %}
     </div>
     <div class="col-sm-1" id="receipt_parse"></div>
     <div class="col-sm-6" id="receipt_predict">
@@ -58,24 +61,23 @@
         </div>
             <div id="extraSpace"></div>
             
-
-            <table id="table" border=1>
-            <tr> 
-                {% if receipt_titles %}
+            {% if receipt_titles %}
+                <h3>Results of Receipt Translation:</h3>
+                <table id="table" border=1>
+                <tr> 
                     <th>Receipt Title</th>
                     <th>LSTM Prediction</th>
                     <th>Edit Distance Prediction</th>
-                {% endif %}
-                
-            </tr>
-            {% for i in range(receipt_titles|length) %}
-            <tr>
-                <td>{{receipt_titles[i]}}</th>
-                <td>{{lstm_output[i]}}</td>
-                <td>{{edit_distance_output[i]}}</td>
-            </tr>
-            {% endfor %}
-            </table>
+                </tr>
+                {% for i in range(receipt_titles|length) %}
+                <tr>
+                    <td>{{receipt_titles[i]}}</th>
+                    <td>{{lstm_output[i]}}</td>
+                    <td>{{edit_distance_output[i]}}</td>
+                </tr>
+                {% endfor %}
+                </table>
+            {% endif %}
 
     </div>
 </div>          

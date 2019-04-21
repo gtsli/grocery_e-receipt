@@ -75,34 +75,19 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 }
 
 #receipt_parse {
-  /* border-color: black;
-  border-style: solid;
-  border-width: 1px; */
-
   display: inline-block;
   margin-left: 20px;
   width: 45%;
 }
 
 #receipt_predict {
-  /* border-color: black;
-  border-style: solid;
-  border-width: 1px; */
-
   float:right;
-  /* display: inline-block; */
   margin-left: 0px;
 }
 
 #all_content {
   width: 100%;
   padding: 20px;
-}
-
-body {
-  /* border-color: black;
-  border-style: solid;
-  border-width: 1px; */
 }
 
 p {

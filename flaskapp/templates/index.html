@@ -54,7 +54,7 @@
             </div>
             <div id="searchResults">
                 {%if manual_search==True %} {{lstm_output_searched[0]}} {% endif %}<br>
-                <br>
+                {%if manual_search==True %} {{gbdt_output_searched}} {% endif %}<br>
                 {%if manual_search==True %} {{edit_distance_output_searched}} {% endif %}<br> 
             </div>
         </div>
@@ -67,12 +67,14 @@
                     <th>Receipt Title</th>
                     <th>LSTM Prediction</th>
                     <th>Edit Distance Prediction</th>
+                    <th>GBDT Prediction</th>
                 </tr>
                 {% for i in range(receipt_titles|length) %}
                 <tr>
                     <td>{{receipt_titles[i]}}</th>
                     <td>{{lstm_output[i]}}</td>
                     <td>{{edit_distance_output[i]}}</td>
+                    <td>{{gbdt_output[i]}}</td>
                 </tr>
                 {% endfor %}
                 </table>

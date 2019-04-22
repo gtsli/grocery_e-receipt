@@ -21,6 +21,9 @@ from sklearn import preprocessing
 from fuzzywuzzy import fuzz
 from weighted_levenshtein import lev, osa, dam_lev
 
+# gbdt imports
+from feature_engineering import get_dataframe
+
 '''
 Global Variables
 '''
@@ -29,6 +32,7 @@ text=""
 receipt_titles_global=""
 lstm_output=""
 edit_distance_output=""
+gbdt_output=""
 app = Flask(__name__)
 
 
@@ -40,16 +44,19 @@ def reload():
 @app.route("/retrieve", methods=['POST', 'GET'])
 def retrieve():
 	searched = request.form['searched_receipt']
-	lstm_output_searched, edit_distance_output_searched = predict(searched, True, None)
+	lstm_output_searched, edit_distance_output_searched, gbdt_output_searched = predict(searched, True, None)
 	print('lstm_output = ', lstm_output)
 	print('edit_distance_output = ', edit_distance_output)
+	print('gbdt_output =', gbdt_output)
 	return render_template("index.html", manual_search=True,
 										lstm_output_searched=lstm_output_searched,
+						   				gbdt_output_searched=gbdt_output_searched,
 										edit_distance_output_searched=edit_distance_output_searched,
 										text=text,
 										receipt_titles=receipt_titles_global,
 										lstm_output=lstm_output,
-										edit_distance_output=edit_distance_output)
+										edit_distance_output=edit_distance_output,
+						   				gbdt_output=gbdt_output)
 
 @app.route("/index")
 def load_blank():
@@ -92,6 +99,12 @@ def predict(searched=None, internal_call=False, receipt=None, receipt_titles=Non
 	with open('../approaches/edit_distance/cleaned_bucket_data.json', encoding="ASCII") as f:
 		data = json.load(f)
 
+	# gbdt
+	gbdt_path = "../approaches/gbdt/"
+	gbdt_model = pickle.load(open(gbdt_path+"models/gbdt_model.sav", "rb"))
+	gbdt_le = preprocessing.LabelEncoder()
+	gbdt_le.classes_ = np.load(gbdt_path+"pickled/labelencoder_gbdt_classes.npy")
+
 	## if internal call ##
 	if internal_call:
 		# lstm
@@ -100,6 +113,11 @@ def predict(searched=None, internal_call=False, receipt=None, receipt_titles=Non
 		lstm_preds = lstm_model.predict(padded)
 		pred_labels = [[np.argmax(x)] for x in lstm_preds]
 		lstm_preds = le.inverse_transform(pred_labels)
+
+		# gbdt
+		df = get_dataframe([searched.upper()])
+		gbdt_preds = gbdt_model.predict(df.drop(columns=['x', 'y'], axis=1))
+		gbdt_preds = gbdt_le.inverse_transform(gbdt_preds)[0]
 
 		#=========================================================
 
@@ -139,7 +157,7 @@ def predict(searched=None, internal_call=False, receipt=None, receipt_titles=Non
 				closest_string = line.lower()
 
 		edit_distance_pred = closest_string
-		return (lstm_preds, edit_distance_pred)
+		return (lstm_preds, edit_distance_pred, gbdt_preds)
 	else:
 		print ('receipt titles = ', receipt_titles)
 		encoded_x = tokenizer.texts_to_sequences(receipt_titles)
@@ -147,6 +165,14 @@ def predict(searched=None, internal_call=False, receipt=None, receipt_titles=Non
 		lstm_preds = lstm_model.predict(padded)
 		pred_labels = [[np.argmax(x)] for x in lstm_preds]
 		lstm_preds = le.inverse_transform(pred_labels)
+
+		# gbdt
+		titles = []
+		for title in receipt_titles:
+			titles.append(title.upper())
+		df = get_dataframe(titles)
+		gbdt_preds = gbdt_model.predict(df.drop(columns=['x', 'y'], axis=1))
+		gbdt_preds = gbdt_le.inverse_transform(gbdt_preds)
 
 		#=========================================================
 
@@ -194,12 +220,14 @@ def predict(searched=None, internal_call=False, receipt=None, receipt_titles=Non
 		global receipt_titles_global
 		global lstm_output
 		global edit_distance_output
+		global gbdt_output
 
 		manual_search=False
 		text=receipt
 		receipt_titles_global=receipt_titles
 		lstm_output=lstm_preds
 		edit_distance_output=edit_distance_preds
+		gbdt_output = gbdt_preds
 		print("edit_distance_output " + str(edit_distance_output))
 
 
@@ -207,7 +235,8 @@ def predict(searched=None, internal_call=False, receipt=None, receipt_titles=Non
 											text=receipt,
 											receipt_titles=receipt_titles,
 											lstm_output=lstm_preds,
-											edit_distance_output=edit_distance_preds)
+											edit_distance_output=edit_distance_preds,
+							   				gbdt_output=gbdt_preds)
 
 
 
